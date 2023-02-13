@@ -1,0 +1,141 @@
+/*
+Colors used:
+Background Color (Floral White): #fdf7ed;
+Primary Color (Prussian Blue): #143a52;
+Secondary Color (Russet): #874c2d;
+Highlight Color-1 (Pale Cerulean): #a1bbce;
+Highlight Color-2 (Rosy Brown): #af8386;
+*/
+
+body {
+    background-color: #fdf7ed;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px; /* Sets the font size to 16px */
+    font-weight: 400; /* Sets the font weight to 400 */
+    line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+    color: #143a52;
+}
+
+h1, h2, h3, h4 {
+    line-height: 1.4;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.75em;
+    font-weight: 800;
+}
+  
+h2 {
+    font-size: 2.25em;
+    font-weight: 700;
+}
+  
+h3 {
+    font-size: 1.75em;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 1.35em;
+    font-weight: 500;
+}
+
+img {
+    width: 100%;
+}
+
+.logo {
+    width: 10%;
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 3.5em;
+    }
+}
+
+@media (min-width: 1024px) {
+    h1 {
+        font-size: 4.25em;
+    }
+}
+
+a {
+    color: #874c2d;
+    text-decoration: none; /* No underlining */
+}
+
+a:visited { /* Visited link */
+    color: #af8386;
+}
+
+a:hover,
+a:focus {
+    color: #a1bbce;
+    text-decoration: underline; /* Underlining when hovering over a link */
+}
+
+a:active { /* Selected link */
+    color: #143a52;
+}
+
+.nav-link,
+.nav-link:visited {
+    color: #143a52;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #a1bbce;
+    text-decoration: none;
+}
+
+.nav-link:active {
+    color: #874c2d;
+}
+
+.button {
+    display: inline-block; /* Since the <a> tag is inline by default, we need to change this to inline-block */
+    background-color: #143a52;
+    color: #fdf7ed; /* Override the default link color */
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 3px;
+    border-bottom: 2px solid #a1bbce; /* Width of the border, type, color */
+    transition: 0.2s opacity;
+}
+
+.button:visited { /* Visited link */
+    color: #fdf7ed;
+}
+
+.button:hover,
+.button:focus {
+    opacity: 0.8; /* Reduces the opacity of the button to 80% */
+    text-decoration: none;
+}
+
+.button:active { /* Selected link */
+    color: #a1bbce;
+}
+
+.button.contact {
+    background-color: transparent;
+    color: #143a52;
+    text-transform: uppercase;
+    border: 2px solid #143a52;
+}
+
+.button.contact:visited { /* Visited link */
+    color: #143a52;
+}
+
+.button.contact:hover,
+.button.contact:focus {
+    background-color: #a1bbce;
+}
+
+.button.contact:active { /* Selected link */
+    color: #fdf7ed;
+}
