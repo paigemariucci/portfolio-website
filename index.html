@@ -12,30 +12,37 @@
         <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
+        <header id="navigation">
             <div>
-                <img src="img/0_homepage/paige-mariucci-logo.svg" alt="Paige Mariucci Designer">
+                <img src="img/0_homepage/paige-mariucci-logo.svg" alt="Paige Mariucci Designer" class="logo">
                 <nav>
                     <ul>
-                        <li><a href="index.html">Work</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="index.html" class="nav-link">Work</a></li>
+                        <li><a href="about.html" class="nav-link">About</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
         <main>
-            <div>
+            <div id="hero">
                 <div>
                     <h1>Hi There!
-                        <br><span>You've found the portfolio of Paige Mariucci: Architectural turned UX Designer based in San Francisco. Take a look around.</span>
+                        <br><span>You've found the portfolio of Paige Mariucci: Architectural turned UX Designer based in San Francisco.</span>
+                        <br><span>Take a look around.</span>
                     </h1>
                     <p>I have a curiosity for discovering how things work, drive to solve problems, and appreciation for effective designs.</p>
                 </div>
             </div>
-            <div>
+            <div id="work">
                 <div>
                     <h2>My Work</h2>
                     <div>
@@ -48,7 +55,7 @@
                         <div>
                             <h3>The Vision</h3>
                             <p>Product design for a responsive web app that allows users to book planners for their events.</p>
-                            <a href="vision.html">View Project</a>
+                            <a href="vision.html" class="button">View Project</a>
                         </div>
                         <div>
                             <picture>
@@ -59,7 +66,7 @@
                         <div>
                             <h3>Recall</h3>
                             <p>Preliminary study for a mobile language learning app using the UX design process.</p>
-                            <a href="#">Coming Soon</a>
+                            <a href="#" class="button">Coming Soon</a>
                         </div>
                     </div>
                 </div>
@@ -70,7 +77,7 @@
                 <h2>Get in touch!</h2>
                 <p>Feel free to reach out if you want to work on a problem together. Call: <a href="tel:503-853-5481">503-853-5481</a> Or send me a message using the link below.</p>
                 <div>
-                    <a href="mailto:paige.mariucci@gmail.com?subject=Let's work together!">Email me</a>
+                    <a href="mailto:paige.mariucci@gmail.com?subject=Let's work together!" class="button contact">Email me</a>
                 </div>
                 <div>
                     <a href="https://www.linkedin.com/in/paige-mariucci-16a397217/" target="_blank">
