@@ -1,628 +1,1641 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <meta name="author" content="Paige Mariucci">
-        <meta name="description" content="Portfolio of Paige Mariucci: Architectural turned UX Designer. Take a look around.">
-        <title>Paige Mariucci / The Vision</title>
-        <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
-        <link rel="manifest" href="img/favicon/site.webmanifest">
-        <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
-        <meta name="msapplication-TileColor" content="#da532c">
-        <meta name="theme-color" content="#ffffff">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/a3921eb820.js" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <header id="navigation">
-            <a name="top" id="top"></a> 
-            <div class="container">
-                <div class="navtoggle" id="myNavtoggle">
-                <img  class="logo" src="img/0_homepage/paige-mariucci-logo.svg" alt="Paige Mariucci Designer">
-                    <div class="pullUp">
-                        <nav>
-                            <ul>
-                                <li><a href="index.html">Work</a></li>
-                                <li><a href="about.html">About</a></li>
-                                <li><a href="#contact"  onclick="menuToggle()">Contact</a></li>
-                                <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Paige Mariucci" />
+    <meta
+      name="description"
+      content="Portfolio of Paige Mariucci: Architectural turned UX Designer. Take a look around."
+    />
+    <title>Paige Mariucci / The Vision</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="img/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="img/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/a3921eb820.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header id="navigation">
+      <a id="top"></a>
+      <div class="container">
+        <div class="navtoggle" id="myNavtoggle">
+          <a href="index.html">
+            <img
+              class="logo"
+              src="img/0_homepage/paige-mariucci-logo.svg"
+              alt="Paige Mariucci Designer"
+            />
+          </a>
+          <div class="pullUp">
+            <nav>
+              <ul>
+                <li><a href="index.html">Work</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+                <li>
+                  <a
+                    href="javascript:void(0);"
+                    class="icon"
+                    onclick="menuToggle()"
+                    ><i class="fas fa-bars"></i
+                  ></a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div id="project-title">
+        <!-- Project Intro -->
+        <div class="container">
+          <!-- Project Intro - Title -->
+          <h1>The Vision: an event planning app</h1>
+        </div>
+        <div class="container">
+          <!-- Project Intro - Image -->
+          <picture>
+            <source
+              srcset="img/2_project-page_the-vision/the-vision-mockup@1x.png"
+              media="(max-width:767px)"
+            />
+            <img
+              src="img/2_project-page_the-vision/the-vision-mockup@2x.png"
+              alt="The Vision Mockup"
+            />
+          </picture>
+        </div>
+      </div>
+      <div id="project-background">
+        <!-- Project Background -->
+        <div class="container">
+          <!-- Project Background - Title -->
+          <h2>Project Background</h2>
+        </div>
+        <div class="container">
+          <!-- Project Background - Text -->
+          <div>
+            <!-- Project Background - Text (Overview) -->
+            <h3>Overview</h3>
+            <p>
+              As part of my CareerFoundry program, I designed a responsive web
+              app which allows users to search, save, message, and book event
+              planners. Following the design thinking process, I started the
+              project with preliminary research and problem definition,
+              continued with prototype development and usability testing, and
+              subsequently refined the visual design.
+            </p>
+          </div>
+          <div class="row">
+            <div class="background col-md-6-project col-lg-3">
+              <!-- Project Background - Text (Role) -->
+              <h4>Role</h4>
+              <ul>
+                <li>UX Designer</li>
+              </ul>
             </div>
-        </header>
-        <main>
-            <div id="project-title"> <!-- Project Intro -->
-                <div class="container"> <!-- Project Intro - Title -->
-                    <h1>The Vision</h1>
-                </div>
-                <div class="container"> <!-- Project Intro - Image -->
-                    <picture>
-                        <source srcset="img/2_project-page_the-vision/the-vision-mockup@1x.png" media="(max-width:767px)">
-                        <img src="img/2_project-page_the-vision/the-vision-mockup@2x.png" alt="The Vision Mockup">
-                    </picture>
-                </div>
+            <div class="background col-md-6-project col-lg-3">
+              <!-- Project Background - Text (Methods & Tools) -->
+              <h4>Methods &amp; Tools</h4>
+              <ul>
+                <li>Competitive Analysis</li>
+                <li>User Personas/Flows</li>
+                <li>Card Sorting</li>
+                <li>Affinity Mapping</li>
+              </ul>
             </div>
-            <div id="project-background"> <!-- Project Background -->
-                <div class="container"> <!-- Project Background - Title -->
-                    <h2>Project Background</h2>
-                </div>
-                <div class="container"> <!-- Project Background - Text -->
-                    <div> <!-- Project Background - Text (Overview) -->
-                        <h3>Overview</h3>
-                        <p>As part of my CareerFoundry program, I designed a responsive web app which allows users to search, save, message, and book event planners. Following the design thinking process, I started the project with preliminary research and problem definition, continued with prototype development and usability testing, and subsequently refined the visual design.</p>
-                    </div>
-                    <div class="row">
-                        <div class="background col-md-6 col-lg-3"> <!-- Project Background - Text (Role) -->
-                            <h4>Role</h4>
-                            <ul>
-                                <li>UX Designer</li>
-                            </ul>
-                        </div>
-                        <div class="background col-md-6 col-lg-3"> <!-- Project Background - Text (Methods & Tools) -->
-                            <h4>Methods & Tools</h4>
-                            <ul>
-                                <li>Competitive Analysis</li>
-                                <li>User Personas/Flows</li>
-                                <li>Card Sorting</li>
-                                <li>Affinity Mapping</li>
-                            </ul>
-                        </div>
-                        <div class="background col-md-6 col-lg-3"> <!-- Project Background - Text (Practices) -->
-                            <h4>Practices</h4>
-                            <ul>
-                                <li>User Research</li>
-                                <li>Information Architecture</li>
-                                <li>Prototyping</li>
-                                <li>Usability Testing</li>
-                            </ul>
-                        </div>
-                        <div class="background col-md-6 col-lg-3"> <!-- Project Background - Text (Programs) -->
-                            <h4>Programs</h4>
-                            <ul>
-                                <li>Miro</li>
-                                <li>AdobeXD</li>
-                                <li>Figma</li>
-                                <li>UsabilityHub</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+            <div class="background col-md-6-project col-lg-3">
+              <!-- Project Background - Text (Practices) -->
+              <h4>Practices</h4>
+              <ul>
+                <li>User Research</li>
+                <li>Information Architecture</li>
+                <li>Prototyping</li>
+                <li>Usability Testing</li>
+              </ul>
             </div>
-            <div id="project-process"> <!-- Project Process -->
-                <div class="container"> <!-- Project Process - Title -->
-                    <h2>Project Process</h2>
-                </div>
-                <div class="container"> <!-- Project Process - Empathize -->
-                    <div> <!-- Project Process Empathize (Image) -->
-                        <picture class="process">
-                            <source srcset="img/2_project-page_the-vision/design-process-empathize@1x.png" media="(max-width:767px)">
-                            <img src="img/2_project-page_the-vision/design-process-empathize@2x.png" alt="Design Process (Empathize)">
-                        </picture>
-                    </div>
-                    <div> <!-- Project Process Empathize (Preliminary Problem Statement) -->
-                        <p>The design process for The Vision app started by brainstorming possible problems in the event planning space.</p>
-                        <ul>
-                            <li>Planning events demands many skills. <span>Event planning requires one to be budget & schedule conscious, an excellent communicator, detail-oriented, adaptable, and connected with service vendors.</span></li>
-                            <li>Event planners are expensive. <span>Planners are commonly hired for big events with large budgets and significant guest lists.</span></li>
-                            <li>Planning during the pandemic is complex. <span>It's challenging to know when and how to plan for an in-person, remote, or hybrid event.</span></li>
-                            <li>Event planners are hard to find. <span>Those looking for an event planner need a reference or recommendation from a friend, family member, or coworker.</span></li>
-                        </ul>
-                        <p>With these possible problems in mind, I crafted a preliminary problem statement for The Vision app.</p>
-                        <p>People tasked with organizing an event need a way to compare & hire professional event planners to help them coordinate their functions because event planning is not only time-consuming but also requires skills, connections, knowledge, and adaptability.</p>
-                    </div>
-                    <div> <!-- Project Process Empathize (Competitive Analysis) -->
-                        <p>To further familiarize myself with the problem I identified two existing apps which allow users to find event planners: Thumbtack & Upwork. I studied how each company has already attempted to solve the users problem in their product and created a competitor profile for each. One of my take-aways from the competitive analysis was that both products had event planners as one of their many available services. Few focused solely on events which could be an opportunity.</p>
-                        <p>Here is an example of the Thumbtack analysis.</p>
-                        <div class="list"> <!-- Project Process Empathize (Competitive Analysis - Thumbtack Text) -->
-                            <p>THUMBTACK:</p>
-                            <ul>
-                                <li><span>KEY OBJECTIVE</span>   |   Matches customers with local professionals. End-to-end booking experience for services. Encourages any type of professional/company to promote themselves to attract clients and grow their business.</li>
-                                <li><span>OVERALL STRATEGY</span>   |   Free sign-up for customers & professionals. Any category of service offered in every region of the US. Professionals pay a fee for each customer lead created through the service.</li>
-                                <li><span>MARKET ADVANTAGE</span>   |   1,100+ types of services with over 150,000 active professionals. Users find compatible professionals for their project via personalized search filters. App Score: 4.9 stars (165K ratings).</li>
-                                <li><span>MARKETING PROFILE</span>   |   Breadth of services increase likelihood of repeat customers. Prominent position on Google search increases exposure. Limited advertisement on social media platforms.</li>
-                            </ul>
-                        </div>
-                        <div> <!-- Project Process Empathize (Competitive Analysis - Thumbtack SWOT) -->
-                            <picture>
-                                <source srcset="img/2_project-page_the-vision/competitive-analysis_thumbtack@1x.png" media="(max-width:767px)">
-                                <img src="img/2_project-page_the-vision/competitive-analysis_thumbtack@2x.png" alt="Thumbtack SWOT">
-                            </picture>
-                        </div>
-                    </div>
-                    <div> <!-- Project Process Empathize (Research Goals) -->
-                        <p>Now that I had explored the existing problem space around event planning, my next step was to conduct user interviews which provided me the opportunity to directly learn about the needs, motivations, and frustrations from those that could potentially be my future users. </p>
-                        <div> <!-- Project Process Empathize (Research Goals - Ordered List) -->
-                            <p>Prior to drafting my script and recruiting participants I identified three primary research goals that I wanted to achieve in the interviews.</p>
-                            <ol>
-                                <li>Uncover common challenges of planning an event or finding a planner.</li>
-                                <li>Determine ways in which people find & evaluate planners.</li>
-                                <li>Explore how the pandemic has impacted how people approach event planning.</li>
-                            </ol>
-                        </div>
-                    </div>
-                    <div> <!-- Project Process Empathize (User Interviews & Analysis) -->
-                        <p>Three individuals were selected for interviews given their specific experience and knowledge within various areas of event planning.</p>
-                        <div> <!-- Project Process Empathize (User Interviews & Analysis - Participants) -->
-                            <ul>
-                                <li>Participant #1   |   <span>Corporate Conference Experience</span></li>
-                                <li>Participant #2   |   <span>Personal Wedding Experience</span></li>
-                                <li>Participant #3   |   <span>Non-Profit Event Experience</span></li>
-                            </ul>
-                        <p>The interviews were helpful in identifying methods of finding planners as well as hearing about expectations in client-planner relationships. To understand overall themes and connections in the data, I collected my notes and studied them via an affinity mapping exercise.</p>
-                        </div>
-                        <div> <!-- Project Process Empathize (User Interviews & Analysis - Affinity Mapping) -->
-                            <picture>
-                                <source srcset="img/2_project-page_the-vision/user-interviews-and-analysis@1x.png" media="(max-width:767px)">
-                                <img src="img/2_project-page_the-vision/user-interviews-and-analysis@2x.png" alt="User Interview Affinity Mapping">
-                            </picture>
-                        </div>
-                        <div class="list"> <!-- Project Process Empathize (User Interviews & Analysis - Insights) -->
-                            <p>INSIGHTS:</p>
-                            <ul>
-                                <li>Most participants said they find event planners through contacts in existing networks.</li>
-                                <li>It can be challenging to plan events in destination cities which results in people relying on referrals by the venue.</li>
-                                <li>Interviewees commonly referred to finding planners via Instagram or Yelp though that is not the primary purpose of those apps.</li>
-                                <li>Reading reviews or receiving a referral is important to people when considering or evaluating planners for an event.</li>
-                            </ul>
-                        </div>
-                        <p>With this user insight I was able to refine my preliminary problem statement for The Vision app.</p>
-                        <p>Individuals tasked with organizing events need to find & hire planners to help execute their events because planning is time consuming and requires skills and connections.</p>
-                    </div>
-                    <div class="learnings row"> <!-- Project Process - Empathize (Learnings) -->
-                        <h4>Learnings</h4>
-                        <div> <!-- Project Process - Empathize (Learnings - Row) -->
-                            <div class="col-lg-4"> <!-- Project Process - Empathize (Learnings - Column 1) -->
-                                <p><span>Problem statement to be refined.</span></p>
-                                <p>To establish the product my preliminary problem statement had to undergo a root cause analysis to identify a core problem. This was important as I wanted to design a solution for an actual need of the user. The early stages of the UX process fortunately encourages the refinement of the problem statement via competitive analysis and user interviews.</p>
-                            </div>
-                            <div class="col-lg-4"> <!-- Project Process - Empathize (Learnings - Column 2) -->
-                                <p><span>Planners are personal.</span></p>
-                                <p>The Vision app will need to include sufficient information about the planner’s past experience and skills as well as ratings or reviews to make the user feel confident booking them for their event. That said, as discovered in my interviews the act of finding an event planner can also be personality driven and visual references are very important.</p>
-                            </div>
-                            <div class="col-lg-4"> <!-- Project Process - Empathize (Learnings - Column 3) -->
-                                <p><span>Let the user explain the problem.</span></p>
-                                <p>Preparing questions was essential for my user interviews as it provided structure to the sessions. However, I learned to leave space for participants to offer feedback even when their responses weren't directly related to a prewritten prompt. These additional observations helped me to better understand their natural behaviors and motivations.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="container"> <!-- Project Process - Define -->
-                    <div> <!-- Project Process Define (Image) -->
-                        <picture class="process">
-                            <source srcset="img/2_project-page_the-vision/design-process-define@1x.png" media="(max-width:767px)">
-                            <img src="img/2_project-page_the-vision/design-process-define@2x.png" alt="Design Process (Define)">
-                        </picture>
-                    </div>
-                    <div> <!-- Project Process Define (User Personas) -->
-                        <p>For this part of the process, design personas were created per my user interview data. I developed 3 personas for The Vision: Simone, Jesse, & Dara. The intent of having multiple personas was to design for users searching for personal, professional, or non-profit events planners.</p>
-                        <p>While additional information was included to make my personas memorable and relatable, the primary focus was on identifying user's motivations, needs, & goals and evaluating how those aligned with the preliminary problem statement.</p>
-                        <div> <!-- Project Process Define (User Personas - Dara) -->
-                            <picture>
-                                <source srcset="img/2_project-page_the-vision/personas_dara@1x.png" media="(max-width:767px)">
-                                <img src="img/2_project-page_the-vision/personas_dara@2x.png" alt="Dara User Persona">
-                            </picture>
-                        </div>
-                        <div> <!-- Project Process Define (User Personas - Jesse) -->
-                            <picture>
-                                <source srcset="img/2_project-page_the-vision/personas_jesse@1x.png" media="(max-width:767px)">
-                                <img src="img/2_project-page_the-vision/personas_jesse@2x.png" alt="Jesse User Persona">
-                            </picture>
-                        </div>
-                        <div> <!-- Project Process Define (User Personas - Simone) -->
-                            <picture>
-                                <source srcset="img/2_project-page_the-vision/personas_simone@1x.png" media="(max-width:767px)">
-                                <img src="img/2_project-page_the-vision/personas_simone@2x.png" alt="Simone User Persona">
-                            </picture>
-                        </div>
-                    </div>
-                    <div> <!-- Project Process Define (User Journey Maps) -->
-                        <p>With personas in hand, I started to visualize the tasks, thoughts, and emotions that my users would go through in order to accomplish a goal. This study was graphically represented in user journey maps.</p>
-                        <p>As seen in the Journey Map below, Dara would like to find an event planner for her wedding. It is important to her that she can review photos of particular planner's past events in order to determine if they will be an appropriate or aesthetic fit for her event.</p>
-                        <div> <!-- Project Process Define (User Journey Maps - Dara) -->
-                            <picture>
-                                <source srcset="img/2_project-page_the-vision/user-journey-maps@1x.png" media="(max-width:767px)">
-                                <img src="img/2_project-page_the-vision/user-journey-maps@2x.png" alt="Dara Journey Map">
-                            </picture>
-                        </div>
-                        <div> <!-- Project Process Define (User Journey Maps - Benefits) -->
-                            <p>A benefit of creating Dara's Journey Map was that I was able to recognize a few design opportunities for The Vision app to help Dara more easily accomplish her goal.</p>
-                            <ul>
-                                <li>Bookmark feature to help users remember planners while in the search flow.</li>
-                                <li>Album feature for a user's bookmarked planners that can be referred to later.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div> <!-- Project Process Define (User Flows) -->
-                        <p>The next part of the process required me to concentrate on specific actions the personas may be doing while using The Vision app. To create a user flow for Dara, I identified her objective, gathered information related to her task, and outlined an optimized list of tasks that I believed Dara would follow to accomplish her goal.</p>
-                        <div> <!-- Project Process Define (User Flows - Context) -->
-                            <picture>
-                                <source srcset="img/2_project-page_the-vision/user-flow_1@1x.png" media="(max-width:767px)">
-                                <img src="img/2_project-page_the-vision/user-flow_1@2x.png" alt="Dara User Flow Context">
-                            </picture>
-                        </div>
-                        <p>Preparing this context in advance helped me to visually represent the sequence of events Dara may follow when searching for a planner & bookmarking a favorite on The Vision app.</p>
-                        <div> <!-- Project Process Define (User Flows - User Flow) -->
-                            <picture>
-                                <source srcset="img/2_project-page_the-vision/user-flow_2@1x.png" media="(max-width:767px)">
-                                <img src="img/2_project-page_the-vision/user-flow_2@2x.png" alt="Dara User Flow">
-                            </picture>
-                        </div>
-                    </div>
-                    <div> <!-- Project Process Define (Site Map) -->
-                        <p>Defining my user personas, journeys, and flows as well as revisiting the problem statement helped me to get an idea of what product needs to be designed.</p>
-                        <p>To start mapping out the organization and content of my product I created a preliminary site map. The hierarchy of The Vision app started with the home screen where the user could navigate to search, events, inbox, and account features.</p>
-                        <div> <!-- Project Process Define (Site Map - Preliminary) -->
-                            <picture>
-                                <source srcset="img/2_project-page_the-vision/site-map@1x.png" media="(max-width:767px)">
-                                <img src="img/2_project-page_the-vision/site-map@2x.png" alt="Preliminary Site Map">
-                            </picture>
-                        </div>
-                        <p>Before starting to wireframe I conducted an open card sort to gain insight on my potential user's expectations for the organization of The Vision app. The following results are compiled from 10 participants sorting 20 cards via the website OptimalSort.</p>
-                        <div> <!-- Project Process Define (Site Map - Card Sorting) -->
-                            <picture>
-                                <source srcset="img/2_project-page_the-vision/card-sorting@1x.png" media="(max-width:767px)">
-                                <img src="img/2_project-page_the-vision/card-sorting@2x.png" alt="Carding Sorting">
-                            </picture>
-                        </div>
-                        <div> <!-- Project Process Define (Site Map - Ordered List) -->
-                            <p>A few significant revisions to the preliminary sitemap came from the card sorting exercise with users.</p>
-                            <ol>
-                                <li>Many participants grouped "Profile", "Save Profile", & "Share Profile" together while "Profile" was intended for the user's personal account and "Save Profile" & "Share Profile" were meant for features on an event planner's profile. For clarity, "Save Profile" & "Share Profile" were revised to "Save Planner" & "Share Planner".</li>
-                                <li>Participants typically differentiated the planner cards from event cards. Thus, a "Planners" category, separate from the "Events" category, was added under the "Home Screen" on the revised sitemap which allowed for a more simplified process when users are searching, saving, messaging, and booking planners.</li>
-                                <li>With the addition of the new "Planners" category under "Home Screen" the user is no longer required to save planners to specific events when they wish to bookmark a planner. As a result, the "Add New Event" option was omitted as events will now only be created once a user has signed a contract with a planner.</li>
-                            </ol>
-                        </div>
-                        <div> <!-- Project Process Define (Site Map - Revised) -->
-                            <picture>
-                                <source srcset="img/2_project-page_the-vision/card-sorting_refined-site-map@1x.png" media="(max-width:767px)">
-                                <img src="img/2_project-page_the-vision/card-sorting_refined-site-map@2x.png" alt="Revised Site Map">
-                            </picture>
-                        </div>
-                    </div>
-                    <div class="learnings row"> <!-- Project Process - Define (Learnings) -->
-                        <h4>Learnings</h4>
-                        <div> <!-- Project Process - Define (Learnings - Row) -->
-                            <div class="col-lg-4"> <!-- Project Process - Define (Learnings - Column 1) -->
-                                <p><span>Condense and strengthen personas.</span></p>
-                                <p>Personal, corporate, and non-profit events differ in purpose, budget, or priorities. However, the people searching for planners of these various event types aren't drastically different from one another. I came to the realization that my personas have comparable end goals and could be synthesized into one primary persona given the project scope.</p>
-                            </div>
-                            <div class="col-lg-4"> <!-- Project Process - Define (Learnings - Column 2) -->
-                                <p><span>Temptation of feature creep.</span></p>
-                                <p>In reflection, my user journeys may be ambitious for a product that will reach MVP development. While the user journeys/task analysis helped to identify potential features and grasp persona flows, I first focused on the features users needed to accomplish their goal before entertaining what else I could provide in order to maximize my design effort.</p>
-                            </div>
-                            <div class="col-lg-4"> <!-- Project Process - Define (Learnings - Column 3) -->
-                                <p><span>Card sorting helps reduce cognitive load.</span></p>
-                                <p>Dedicating time to a participatory design exercise (i.e. card sorting) before prototyping not only saved me from redesigns later but also reinforced I was building an app that was aligned with the mental models of my users. A product that has intuitive navigation and doesn't require people to relearn patterns will make for a more enjoyable experience.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="container"> <!-- Project Process - Prototype -->
-                    <div> <!-- Project Process Prototype (Image) -->
-                        <picture class="process">
-                            <source srcset="img/2_project-page_the-vision/design-process-prototype@1x.png" media="(max-width:767px)">
-                            <img src="img/2_project-page_the-vision/design-process-prototype@2x.png" alt="Design Process (Prototype)">
-                        </picture>
-                    </div>
-                    <div> <!-- Project Process Prototype (Low-Fidelity Prototypes) -->
-                        <p>With user flows and a revised site map as a reference I sketched some low-fidelity wireframes and prototyped the various screens users may experience when interacting with The Vision app.</p>
-                        <div> <!-- Project Process Prototype (Low-Fidelity Image) -->
-                            <picture>
-                                <source srcset="img/2_project-page_the-vision/low-fidelity-prototypes_1@1x.png" media="(max-width:767px)">
-                                <img src="img/2_project-page_the-vision/low-fidelity-prototypes_1@2x.png" alt="Design Process (Low-Fidelity Sketch)">
-                            </picture>
-                        </div>
-                        <p>Below are early studies of the user experience when bookmarking a planner on either a mobile device or desktop. The sketches were done using an iPad & Apple Pencil which allowed for rapid iterations.</p>
-                        <div> <!-- Project Process Prototype (Low-Fidelity Mobile) -->
-                            <picture>
-                                <source srcset="img/2_project-page_the-vision/low-fidelity-prototypes_mobile@1x.png" media="(max-width:767px)">
-                                <img src="img/2_project-page_the-vision/low-fidelity-prototypes_mobile@2x.png" alt="Design Process (Low-Fidelity Mobile)">
-                            </picture>
-                        </div>
-                        <div> <!-- Project Process Prototype (Low-Fidelity Desktop 1) -->
-                            <picture>
-                                <source srcset="img/2_project-page_the-vision/low-fidelity-prototypes_desktop-1@1x.png" media="(max-width:767px)">
-                                <img src="img/2_project-page_the-vision/low-fidelity-prototypes_desktop-1@2x.png" alt="Design Process (Low-Fidelity Desktop 1)">
-                            </picture>
-                        </div>
-                        <div> <!-- Project Process Prototype (Low-Fidelity Desktop 1) -->
-                            <picture>
-                                <source srcset="img/2_project-page_the-vision/low-fidelity-prototypes_desktop-2@1x.png" media="(max-width:767px)">
-                                <img src="img/2_project-page_the-vision/low-fidelity-prototypes_desktop-2@2x.png" alt="Design Process (Low-Fidelity Desktop 2)">
-                            </picture>
-                        </div>
-                    </div>
-                    <div> <!-- Project Process Prototype (Mid-Fidelity Prototypes) -->
-                        <p>Once I flushed out the basic functionality of The Vision app via hand-sketched low-fidelity prototypes I progressed to digital mid-fidelity wireframes using Figma. Below are wireframes for the previously shown user flow of bookmarking a planner on a mobile device.</p>
-                        <div> <!-- Project Process Prototype (Mid-Fidelity Image) -->
-                            <picture>
-                                <source srcset="img/2_project-page_the-vision/mid-fidelity-prototypes@1x.png" media="(max-width:767px)">
-                                <img src="img/2_project-page_the-vision/mid-fidelity-prototypes@2x.png" alt="Design Process (Mid-Fidelity Mobile)">
-                            </picture>
-                        </div>
-                        <p>My mid-to-high fidelity wireframes remained grayscale with placeholder copy which allowed me to play with the form and function of the screens and not get too far ahead on the design. By disregarding specifics associated with UI design & language selections, I was able to translate my hand sketches into a digital format for further manipulation.</p>
-                    </div>
-                    <div> <!-- Project Process Prototype (High-Fidelity Prototypes) -->
-                        <p>In order to bring life to my wireframes and prepare a high-fidelity prototype to test with users, I incorporated interactions to mimic the intended functionality of the app.</p>
-                        <p>Wireframes from my high-fidelity prototype can be seen below. At this point in the project the screens were all designed for a mobile device as my objective was to deliver a MVP with a mobile-first approach.</p>
-                        <div> <!-- Project Process Prototype (High-Fidelity Gif) -->
-                            <picture>
-                                <source srcset="img/2_project-page_the-vision/high-fidelity-prototypes_gif@1x.gif" media="(max-width:767px)">
-                                <img src="img/2_project-page_the-vision/high-fidelity-prototypes_gif@2x.gif" alt="Design Process (High-Fidelity Mobile)">
-                            </picture>
-                        </div>
-                    </div>
-                    <div class="learnings row"> <!-- Project Process - Prototype (Learnings) -->
-                        <h4>Learnings</h4>
-                        <div> <!-- Project Process - Prototype (Learnings - Row) -->
-                            <div class="col-lg-4"> <!-- Project Process - Prototype (Learnings - Column 1) -->
-                                <p><span>Usability heuristics as competitive analysis.</span></p>
-                                <p>Performing a heuristic evaluation of my product will be valuable in the future. However, as my design is in the early stages I used the excuse to heuristically evaluate a competitive app. The insight gained on how they attempted to solve the problem in their design and usability pros/cons discovered was a constructive reference once I started prototyping.</p>
-                            </div>
-                            <div class="col-lg-4"> <!-- Project Process - Prototype (Learnings - Column 2) -->
-                                <p><span>Pencil before pen before mouse.</span></p>
-                                <p>Prototyping with pencil first helped me to quickly get ideas from my brain to a physical, shareable format. It motivated me to experiment with different solutions before making any final decisions. Additionally, creating a roadmap of the design direction prior to jumping into digital tools allowed for a natural development of high-to-low level details.</p>
-                            </div>
-                            <div class="col-lg-4"> <!-- Project Process - Prototype (Learnings - Column 3) -->
-                                <p><span>Prototypes serve different purposes.</span></p>
-                                <p>The primary purpose of the prototypes I created for this product was to have something to put in front of users to test usability. That said, I learned the prototyping tool can serve various purposes in the UX practice such as expressing a simple concept for a feature to the product team or representing an entire product experience for stakeholders.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="container"> <!-- Project Process - Test -->
-                    <div> <!-- Project Process Test (Image) -->
-                        <picture class="process">
-                            <source srcset="img/2_project-page_the-vision/design-process-test@1x.png" media="(max-width:767px)">
-                            <img src="img/2_project-page_the-vision/design-process-test@2x.png" alt="Design Process (Test)">
-                        </picture>
-                    </div>
-                    <div> <!-- Project Process Test (Test Plan & Script) -->
-                        <p>In preparation for the usability tests I created a test plan & script. This document contained information such as test goals, features/tasks to be performed, methodology, participants, and metrics for evaluation.</p>
-                        <div class="test-plan"> <!-- Project Process Test (Test Plan & Script - Plan) -->
-                            <ul>
-                                <p>BACKGROUND:</p>
-                                <li><span>THE VISION APP PROBLEM STATEMENT</span>   |   Individuals tasked with organizing events need a way to find & hire planners to help them execute their events because planning is time-consuming and often requires specific skills and connections.</li>
-                                <p>GOALS:</p>
-                                <li>Evaluate if the core features of The Vision app are usable and intuitive by observing participants to measure their satisfaction or frustration when executing basic tasks.</li>
-                                <p>OBJECTIVES:</p>
-                                <li><span>FEATURES TO TEST</span>   |   Sign-Up & Log-In, Search Event Planners, Save Event Planner, Message Event Planner, Book Event Planner, & Log-Out</li>
-                                <p>METHODOLOGY:</p>
-                                <li>Moderated in-person & remote usability tests. Participants to execute a series of tasks on personal device using the prototype. Tasks will be followed-up with questions based on facilitator's observations to gain qualitative insight about their experience.</li>
-                                <p>PARTICIPANTS:</p>
-                                <li>The study will test six participants.</li>
-                                <li><span>TARGET AUDIENCE</span>   |   Individuals familiar with using mobile devices to find professionals and have experience planning events or working with event planners on a range of functions (i.e. personal, professional, non-profit).</li>
-                                <p>METRICS:</p>
-                                <li><span>RATING SYSTEM</span>   |   Errors will be measured using the Jakob Nielsen’s Scale.</li>
-                                    <div class="metrics">  
-                                        <li>0 = No usability problem</li>
-                                        <li>1 = Cosmetic problem only</li>
-                                        <li>2 = Minor usability problem</li>
-                                        <li>3 = Major usability problem</li>
-                                        <li>4 = Usability catastrophe</li>
-                                    </div>  
-                                <p>TASKS:</p>
-                                <li><span>SEARCH / SHARE</span>   |   Find an event planner and send them to a friend.</li>
-                                <li><span>MESSAGE</span>   |   Ask an event planner if they have experience at your venue.</li>
-                                <li><span>BOOK</span>   |   Request a proposal from an event planner & book them for your event.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div> <!-- Project Process Test (Affinity Map) -->
-                        <p>After completing the usability tests I had a substantial amount of data to analyze particularly as a majority of the participants opted to provided additional feedback after each task.</p>
-                        <p>The first tool I employed to identify themes and connections in the information was an affinity mapping exercise in which I sorted the insight I gathered for specific tasks into the following categories: observations, positives quotes, negative quotes, errors, & rating.</p>
-                        <div> <!-- Project Process Test (Affinity Map - Image) -->
-                            <picture>
-                                <source srcset="img/2_project-page_the-vision/affinity-map_overall-map@1x.png" media="(max-width:767px)">
-                                <img src="img/2_project-page_the-vision/affinity-map_overall-map@2x.png" alt="Usability Test Affinity Mapping">
-                            </picture>
-                        </div>
-                    </div>
-                    <div class="process-link-1"> <!-- Project Process Test (Rainbow Spreadsheet) -->
-                        <p>While it was beneficial to recognize similarities and categorize themes in my usability test data by affinity mapping, I next applied structure and meaning to the insight by creating a rainbow spreadsheet. This allowed me to not only prioritize a list of errors that could be addressed but also start brainstorming possible solutions & next steps.</p>
-                        <a href="files/the-vision_rainbow-spreadsheet.pdf" target="_blank">View Full Rainbow Spreadsheet</a>
-                        <div> <!-- Project Process Test (Rainbow Spreadsheet - Image) -->
-                            <picture>
-                                <source srcset="img/2_project-page_the-vision/rainbow-spreadsheet_errors@1x.png" media="(max-width:767px)">
-                                <img src="img/2_project-page_the-vision/rainbow-spreadsheet_errors@2x.png" alt="Usability Test Rainbow Spreadsheet">
-                            </picture>
-                        </div>
-                    </div>
-                    <div> <!-- Project Process Test (Test Report & Recommendations) -->
-                        <p>To communicate my findings from the usability tests I prepared a test report listing discovered errors with proposed changes.</p>
-                        <div> <!-- Project Process Test (Test Report & Recommendations - Issues) -->
-                            <div> <!-- Project Process Test (Test Report & Recommendations - Issue 1) -->
-                                <picture>
-                                    <source srcset="img/2_project-page_the-vision/test-report-and-recommendations_error-1@1x.png" media="(max-width:767px)">
-                                    <img src="img/2_project-page_the-vision/test-report-and-recommendations_error-1@2x.png" alt="Issue 1">
-                                </picture>
-                            </div>
-                            <div> <!-- Project Process Test (Test Report & Recommendations - Issue 2) -->
-                                <picture>
-                                    <source srcset="img/2_project-page_the-vision/test-report-and-recommendations_error-2@1x.png" media="(max-width:767px)">
-                                    <img src="img/2_project-page_the-vision/test-report-and-recommendations_error-2@2x.png" alt="Issue 2">
-                                </picture>
-                            </div>
-                            <div> <!-- Project Process Test (Test Report & Recommendations - Issue 3) -->
-                                <picture>
-                                    <source srcset="img/2_project-page_the-vision/test-report-and-recommendations_error-3@1x.png" media="(max-width:767px)">
-                                    <img src="img/2_project-page_the-vision/test-report-and-recommendations_error-3@2x.png" alt="Issue 3">
-                                </picture>
-                                <p>See below for example of revised search flow per the Usability Tests.</p>
-                                <picture>
-                                    <source srcset="img/2_project-page_the-vision/test-report-and-recommendations_error-3_gif@1x.gif" media="(max-width:767px)">
-                                    <img src="img/2_project-page_the-vision/test-report-and-recommendations_error-3_gif@2x.gif" alt="Issue 3 Gif">
-                                </picture>
-                            </div>
-                            <div> <!-- Project Process Test (Test Report & Recommendations - Issue 4) -->
-                                <picture>
-                                    <source srcset="img/2_project-page_the-vision/test-report-and-recommendations_error-4@1x.png" media="(max-width:767px)">
-                                    <img src="img/2_project-page_the-vision/test-report-and-recommendations_error-4@2x.png" alt="Issue 4">
-                                </picture>
-                                <p>See below for example of revised proposal request flow per the Usability Tests.</p>
-                                <picture>
-                                    <source srcset="img/2_project-page_the-vision/test-report-and-recommendations_error-4_gif@1x.gif" media="(max-width:767px)">
-                                    <img src="img/2_project-page_the-vision/test-report-and-recommendations_error-4_gif@2x.gif" alt="Issue 3 Gif">
-                                </picture>
-                            </div>
-                            <div> <!-- Project Process Test (Test Report & Recommendations - Issue 5) -->
-                                <picture>
-                                    <source srcset="img/2_project-page_the-vision/test-report-and-recommendations_error-5@1x.png" media="(max-width:767px)">
-                                    <img src="img/2_project-page_the-vision/test-report-and-recommendations_error-5@2x.png" alt="Issue 5">
-                                </picture>
-                                <p>See below for example of revised saving planner flow per the Usability Tests.</p>
-                                <picture>
-                                    <source srcset="img/2_project-page_the-vision/test-report-and-recommendations_error-5_gif@1x.gif" media="(max-width:767px)">
-                                    <img src="img/2_project-page_the-vision/test-report-and-recommendations_error-5_gif@2x.gif" alt="Issue 3 Gif">
-                                </picture>
-                            </div>
-                        </div>
-                    </div>
-                    <div> <!-- Project Process Test (Preference Tests) -->
-                        <p>In addition to the usability tests, I also conducted a few preference tests to gather insight from users on the introductory splash, onboarding, and sign-up/log-in screens of The Vision App. The tests were administered and feedback collected via Usability Hub.</p>
-                        <div> <!-- Project Process Test (Preference Tests - Options) -->
-                            <picture>
-                                <source srcset="img/2_project-page_the-vision/preference-test_options@1x.png" media="(max-width:767px)">
-                                <img src="img/2_project-page_the-vision/preference-test_options@2x.png" alt="Preference Test Options">
-                            </picture>
-                        </div>
-                        <div> <!-- Project Process Test (Preference Tests - Results) -->
-                            <picture>
-                                <source srcset="img/2_project-page_the-vision/preference-test_results@1x.png" media="(max-width:767px)">
-                                <img src="img/2_project-page_the-vision/preference-test_results@2x.png" alt="Preference Test Results">
-                            </picture>
-                        </div>
-                        <p>See below for example of revised onboarding flow per the Preference Tests.</p>
-                        <picture>
-                            <source srcset="img/2_project-page_the-vision/preference-test_onboarding-flow_gif@1x.gif" media="(max-width:767px)">
-                            <img src="img/2_project-page_the-vision/preference-test_onboarding-flow_gif@2x.gif" alt="Onboarding Flow Gif">
-                        </picture>
-                    </div>
-                    <div class="learnings row"> <!-- Project Process - Test (Learnings) -->
-                        <h4>Learnings</h4>
-                        <div> <!-- Project Process - Test (Learnings - Row) -->
-                            <div class="col-lg-4"> <!-- Project Process - Test (Learnings - Column 1) -->
-                                <p><span>Simple scenarios for preliminary prototypes.</span></p>
-                                <p>In initial tests, I observed that participants put a lot of thought into the specifics of task scenarios and as a result apprehensively tried to perform actions beyond the prototype's level of development. Thus, I made adjustments for later tests to ensure questions were concise and straightforward as my primary goal was to evaluate the core navigation.</p>
-                            </div>
-                            <div class="col-lg-4"> <!-- Project Process - Test (Learnings - Column 2) -->
-                                <p><span>General themes over individual comments.</span></p>
-                                <p>Affinity mapping after usability tests was useful as it focused my attention on overall test trends instead of favoring a singular user's feedback. That said, I recognize how the participatory exercise of affinity mapping and analyzing insight as part of a team instead of solo would be even more rewarding and enhance the experience of design.</p>
-                            </div>
-                            <div class="col-lg-4"> <!-- Project Process - Test (Learnings - Column 3) -->
-                                <p><span>Prioritize and phase updates.</span></p>
-                                <p>It was slightly intimidating to conclude the usability tests and discover a long list of errors to address. My first instinct is to fix it all now. However, that is time consuming and can be unfavorable as some updates require additional testing and impact proposed solutions for other errors. Sequentially phasing updates is a necessary and productive part of design.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="container"> <!-- Project Process - Refine -->
-                    <div> <!-- Project Process Refine (Image) -->
-                        <picture class="process">
-                            <source srcset="img/2_project-page_the-vision/design-process-refine@1x.png" media="(max-width:767px)">
-                            <img src="img/2_project-page_the-vision/design-process-refine@2x.png" alt="Design Process (Refine)">
-                        </picture>
-                    </div>
-                    <div class="process-link-2"> <!-- Project Process Refine (Style Guide) -->
-                        <p>To improve both the visual design and user experience I studied the Gestalt Properties, Gestalt Laws of Grouping, & Principles of Design and aimed to apply them to the screens of the Vision app.</p>
-                        <p>After narrowing in on a visual voice for The Vision app as well as developing a majority of screens to have a consistent visual language I compiled the information into a Style Guide.</p>
-                        <p>The Style Guide includes information on the typography, colors, UI elements, imagery & illustrations, grids & layouts, as well as copy of The Vision app. When developing new screens or refining existing ones in the future the Style Guide can be used as a reference.</p>
-                        <a href="files/the-vision_style-guide.pdf" target="_blank">View Full Style Guide</a>
-                    </div>
-                    <div> <!-- Project Process Refine (Design Collaboration) -->
-                        <p>With visually updated screens it was time to share the latest prototype with fellow designers for feedback. The constructive comments received highlighted areas where I could strengthen the visual design of The Vision app for clarity and ease of use.</p>
-                        <div class="design-collaboration"> <!-- Project Process Refine (Design Collaboration - Home Screen) -->
-                            <p>Updates to Home Screen Below</p>
-                            <picture>
-                                <source srcset="img/2_project-page_the-vision/design-collaboration_1@1x.png" media="(max-width:767px)">
-                                <img src="img/2_project-page_the-vision/design-collaboration_1@2x.png" alt="Home Screen Updates">
-                            </picture>
-                        </div>
-                        <div class="design-collaboration"> <!-- Project Process Refine (Design Collaboration - Search Prompt) -->
-                            <p>Updates to Search Prompt Screens Below</p>
-                            <picture>
-                                <source srcset="img/2_project-page_the-vision/design-collaboration_2@1x.png" media="(max-width:767px)">
-                                <img src="img/2_project-page_the-vision/design-collaboration_2@2x.png" alt="Search Prompt Updates">
-                            </picture>
-                        </div>
-                        <div> <!-- Project Process Refine (Design Collaboration - Search Prompt Gif) -->
-                            <p>See below for example of revised search prompts per the design collaboration.</p>
-                                <picture>
-                                    <source srcset="img/2_project-page_the-vision/design-collaboration_gif@1x.gif" media="(max-width:767px)">
-                                    <img src="img/2_project-page_the-vision/design-collaboration_gif@2x.gif" alt="Search Prompt Gif">
-                                </picture>
-                        </div>
-                    </div>
-                    <div> <!-- Project Process Refine (Accessibility & Polished UI) -->
-                        <p>The insight I received from designers ranged from minor visual recommendations to more significant pain points. While addressing these items I also took the opportunity to review each screen to identify improvements that could be made in terms of accessibility.</p>
-                        <div class="list"> <!-- Project Process Refine (Accessibility & Polished UI - Home Screen) -->
-                            <p>HOME SCREEN:</p>
-                            <ul>
-                                <li><span>SEARCH BAR FONT SIZE</span>   |   Search bar & icon increased for better readability.</li>
-                                <li><span>SEARCH BAR LABELS/PLACEHOLDER</span>   |   "Planner Search" label added to input form to help user remember what to enter after selecting field in flow. "Example 'Party Planner'" added as placeholder text to help guide user on what is expected to enter.</li>
-                                <li><span>HEADERS FONT CASE</span>   |   Headers (i.e. "Popular Services") changed from uppercase to title case to increase readability.</li>
-                                <li><span>CARDS FONT SIZE/PADDING</span>   |   Planner cards (i.e. "Wedding Coordinators") & "Recently Searched" cards increased for better readability. Padding around text increased to give visual breathing room.</li>
-                                <li><span>CARDS BACKGROUND COLOR</span>   |   "Recently Searched" cards lightened to increased contrast for better readability. "Featured Events" cards lightened as high contrast was drawing too much attention to that section and may distract user.</li>
-                                <li><span>BADGE</span>   |   Color of "Inbox" icon notification changed to achieve contrast ratio of 3:1.</li>
-                            </ul>
-                        </div>
-                        <div> <!-- Project Process Refine (Accessibility & Polished UI - Home Screen Gif) -->
-                            <picture>
-                                <source srcset="img/2_project-page_the-vision/accessibility_polished-ui@1x.gif" media="(max-width:767px)">
-                                <img src="img/2_project-page_the-vision/accessibility_polished-ui@2x.gif" alt="Home Screen Gif">
-                            </picture>
-                        </div>
-                        <div class="process-link-2"> <!-- Project Process Refine (Accessibility & Polished UI - Video Walkthrough Link) -->
-                            <p>The next step after addressing errors discovered in the usability tests, refining the visual design via principles & collaboration, and investing in the practice of designing accessible interfaces for diverse users is to modify the prototype for handoff or another round of testing.</p>
-                            <a href="https://www.youtube.com/watch?v=0fjBTE7PwtY" target="_blank">View video walkthrough of The Vision App prototype.</a>
-                        </div>
-                    </div>
-                    <div class="learnings row"> <!-- Project Process - Refine (Learnings) -->
-                        <h4>Learnings</h4>
-                        <div> <!-- Project Process - Refine (Learnings - Row) -->
-                            <div class="col-lg-4"> <!-- Project Process - Refine (Learnings - Column 1) -->
-                                <p><span>Design standards as inspiration.</span></p>
-                                <p>Tools such as Google's Material Design were a handy reference when beginning the visual design. As I did not have an existing Style Guide it was beneficial to refer to it for best practices in the industry. However, I understand going forward they are purely guidelines and I have flexibility to evolve the product design as needed to best serve the users.</p>
-                            </div>
-                            <div class="col-lg-4"> <!-- Project Process - Refine (Learnings - Column 2) -->
-                                <p><span>Start with clean style guide.</span></p>
-                                <p>I learned that I can design more efficiently if I strive for visual consistency and simplicity from the start of a project. In fact, the Style Guide I created could be streamlined and consolidated further. When working on MVPs in the future I will aim to make deliberate design decisions at the beginning of the process to avoid over complication later.</p>
-                            </div>
-                            <div class="col-lg-4"> <!-- Project Process - Refine (Learnings - Column 3) -->
-                                <p><span>Make accessibility a priority.</span></p>
-                                <p>Designing products for all users with a range of accessibilities should be a priority for designers. The modifications I made to address accessibility concerns (i.e. enlarging text size, modifying colors, and including labels) not only resulted in a product that more people can navigate but also added to the visual balance of the interface in general.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="background col-md-6-project col-lg-3">
+              <!-- Project Background - Text (Programs) -->
+              <h4>Programs</h4>
+              <ul>
+                <li>Miro</li>
+                <li>AdobeXD</li>
+                <li>Figma</li>
+                <li>UsabilityHub</li>
+              </ul>
             </div>
-            <a href="#top" id="goTop">Back to Top</a>
-        </main>
-        <footer id="contact">
-            <div class="container">
-                <h2>Get in touch!</h2>
-                <p>Feel free to reach out if you want to work on a problem together. Call: <a href="tel:503-853-5481">503-853-5481</a> Or send me a message using the link below.</p>
-                <div>
-                    <a href="mailto:paige.mariucci@gmail.com?subject=Let's work together!" class="button contact">Email me</a>
-                </div>
-                <div class="social-icon">
-                    <a href="https://www.linkedin.com/in/paige-mariucci-16a397217/" target="_blank">
-                        <svg height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" version="1.1" viewBox="0 0 512 512" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="g5891"><path d="M512,64c0,-35.323 -28.677,-64 -64,-64l-384,0c-35.323,0 -64,28.677 -64,64l0,384c0,35.323 28.677,64 64,64l384,0c35.323,0 64,-28.677 64,-64l0,-384Z" id="background" style="fill:#2867b2;"/><g id="shapes"><rect height="257.962" id="rect11" style="fill:#fff;" width="85.76" x="61.053" y="178.667"/><path d="M104.512,54.28c-29.341,0 -48.512,19.29 -48.512,44.573c0,24.752 18.588,44.574 47.377,44.574l0.554,0c29.903,0 48.516,-19.822 48.516,-44.574c-0.555,-25.283 -18.611,-44.573 -47.935,-44.573Z" id="path13-0" style="fill:#fff;fill-rule:nonzero;"/><path d="M357.278,172.601c-45.49,0 -65.866,25.017 -77.276,42.589l0,-36.523l-85.738,0c1.137,24.197 0,257.961 0,257.961l85.737,0l0,-144.064c0,-7.711 0.554,-15.42 2.827,-20.931c6.188,-15.4 20.305,-31.352 43.993,-31.352c31.012,0 43.436,23.664 43.436,58.327l0,138.02l85.741,0l0,-147.93c0,-79.237 -42.305,-116.097 -98.72,-116.097Z" id="path15" style="fill:#fff;fill-rule:nonzero;"/></g></g></svg>
-                    </a>
-                </div>
-                <p>Copyright Paige Mariucci 2023</p>
+          </div>
+        </div>
+      </div>
+      <div id="project-process">
+        <!-- Project Process -->
+        <div class="container">
+          <!-- Project Process - Title -->
+          <h2>Project Process</h2>
+        </div>
+        <div class="container">
+          <!-- Project Process - Empathize -->
+          <div>
+            <!-- Project Process Empathize (Image) -->
+            <picture class="process">
+              <source
+                srcset="
+                  img/2_project-page_the-vision/design-process-empathize@1x.png
+                "
+                media="(max-width:767px)"
+              />
+              <img
+                src="img/2_project-page_the-vision/design-process-empathize@2x.png"
+                alt="Design Process (Empathize)"
+              />
+            </picture>
+          </div>
+          <div>
+            <!-- Project Process Empathize (Preliminary Problem Statement) -->
+            <p>
+              The design process for The Vision app started by brainstorming
+              possible problems in the event planning space.
+            </p>
+            <ul>
+              <li>
+                Planning events demands many skills.
+                <span
+                  >Event planning requires one to be budget &amp; schedule
+                  conscious, an excellent communicator, detail-oriented,
+                  adaptable, and connected with service vendors.</span
+                >
+              </li>
+              <li>
+                Event planners are expensive.
+                <span
+                  >Planners are commonly hired for big events with large budgets
+                  and significant guest lists.</span
+                >
+              </li>
+              <li>
+                Planning during the pandemic is complex.
+                <span
+                  >It's challenging to know when and how to plan for an
+                  in-person, remote, or hybrid event.</span
+                >
+              </li>
+              <li>
+                Event planners are hard to find.
+                <span
+                  >Those looking for an event planner need a reference or
+                  recommendation from a friend, family member, or
+                  coworker.</span
+                >
+              </li>
+            </ul>
+            <p>
+              With these possible problems in mind, I crafted a preliminary
+              problem statement for The Vision app.
+            </p>
+            <p>
+              People tasked with organizing an event need a way to compare &amp;
+              hire professional event planners to help them coordinate their
+              functions because event planning is not only time-consuming but
+              also requires skills, connections, knowledge, and adaptability.
+            </p>
+          </div>
+          <div>
+            <!-- Project Process Empathize (Competitive Analysis) -->
+            <p>
+              To further familiarize myself with the problem I identified two
+              existing apps which allow users to find event planners: Thumbtack
+              &amp; Upwork. I studied how each company has already attempted to
+              solve the users problem in their product and created a competitor
+              profile for each. One of my take-aways from the competitive
+              analysis was that both products had event planners as one of their
+              many available services. Few focused solely on events which could
+              be an opportunity.
+            </p>
+            <p>Here is an example of the Thumbtack analysis.</p>
+            <div class="list">
+              <!-- Project Process Empathize (Competitive Analysis - Thumbtack Text) -->
+              <p>THUMBTACK:</p>
+              <ul>
+                <li>
+                  <span>KEY OBJECTIVE</span> | Matches customers with local
+                  professionals. End-to-end booking experience for services.
+                  Encourages any type of professional/company to promote
+                  themselves to attract clients and grow their business.
+                </li>
+                <li>
+                  <span>OVERALL STRATEGY</span> | Free sign-up for customers
+                  &amp; professionals. Any category of service offered in every
+                  region of the US. Professionals pay a fee for each customer
+                  lead created through the service.
+                </li>
+                <li>
+                  <span>MARKET ADVANTAGE</span> | 1,100+ types of services with
+                  over 150,000 active professionals. Users find compatible
+                  professionals for their project via personalized search
+                  filters. App Score: 4.9 stars (165K ratings).
+                </li>
+                <li>
+                  <span>MARKETING PROFILE</span> | Breadth of services increase
+                  likelihood of repeat customers. Prominent position on Google
+                  search increases exposure. Limited advertisement on social
+                  media platforms.
+                </li>
+              </ul>
             </div>
-        </footer>
-        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
-        <script src="js/scripts.js"></script>
-    </body>
+            <div>
+              <!-- Project Process Empathize (Competitive Analysis - Thumbtack SWOT) -->
+              <picture>
+                <source
+                  srcset="
+                    img/2_project-page_the-vision/competitive-analysis_thumbtack@1x.png
+                  "
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/2_project-page_the-vision/competitive-analysis_thumbtack@2x.png"
+                  alt="Thumbtack SWOT"
+                />
+              </picture>
+            </div>
+          </div>
+          <div>
+            <!-- Project Process Empathize (Research Goals) -->
+            <p>
+              Now that I had explored the existing problem space around event
+              planning, my next step was to conduct user interviews which
+              provided me the opportunity to directly learn about the needs,
+              motivations, and frustrations from those that could potentially be
+              my future users.
+            </p>
+            <div>
+              <!-- Project Process Empathize (Research Goals - Ordered List) -->
+              <p>
+                Prior to drafting my script and recruiting participants I
+                identified three primary research goals that I wanted to achieve
+                in the interviews.
+              </p>
+              <ol>
+                <li>
+                  Uncover common challenges of planning an event or finding a
+                  planner.
+                </li>
+                <li>
+                  Determine ways in which people find &amp; evaluate planners.
+                </li>
+                <li>
+                  Explore how the pandemic has impacted how people approach
+                  event planning.
+                </li>
+              </ol>
+            </div>
+          </div>
+          <div>
+            <!-- Project Process Empathize (User Interviews & Analysis) -->
+            <p>
+              Three individuals were selected for interviews given their
+              specific experience and knowledge within various areas of event
+              planning.
+            </p>
+            <div>
+              <!-- Project Process Empathize (User Interviews & Analysis - Participants) -->
+              <ul>
+                <li>
+                  Participant #1 | <span>Corporate Conference Experience</span>
+                </li>
+                <li>
+                  Participant #2 | <span>Personal Wedding Experience</span>
+                </li>
+                <li>
+                  Participant #3 | <span>Non-Profit Event Experience</span>
+                </li>
+              </ul>
+              <p>
+                The interviews were helpful in identifying methods of finding
+                planners as well as hearing about expectations in client-planner
+                relationships. To understand overall themes and connections in
+                the data, I collected my notes and studied them via an affinity
+                mapping exercise.
+              </p>
+            </div>
+            <div>
+              <!-- Project Process Empathize (User Interviews & Analysis - Affinity Mapping) -->
+              <picture>
+                <source
+                  srcset="
+                    img/2_project-page_the-vision/user-interviews-and-analysis@1x.png
+                  "
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/2_project-page_the-vision/user-interviews-and-analysis@2x.png"
+                  alt="User Interview Affinity Mapping"
+                />
+              </picture>
+            </div>
+            <div class="list">
+              <!-- Project Process Empathize (User Interviews & Analysis - Insights) -->
+              <p>INSIGHTS:</p>
+              <ul>
+                <li>
+                  Most participants said they find event planners through
+                  contacts in existing networks.
+                </li>
+                <li>
+                  It can be challenging to plan events in destination cities
+                  which results in people relying on referrals by the venue.
+                </li>
+                <li>
+                  Interviewees commonly referred to finding planners via
+                  Instagram or Yelp though that is not the primary purpose of
+                  those apps.
+                </li>
+                <li>
+                  Reading reviews or receiving a referral is important to people
+                  when considering or evaluating planners for an event.
+                </li>
+              </ul>
+            </div>
+            <p>
+              With this user insight I was able to refine my preliminary problem
+              statement for The Vision app.
+            </p>
+            <p>
+              Individuals tasked with organizing events need to find &amp; hire
+              planners to help execute their events because planning is time
+              consuming and requires skills and connections.
+            </p>
+          </div>
+          <div class="learnings row">
+            <!-- Project Process - Empathize (Learnings) -->
+            <h4>Learnings</h4>
+            <div>
+              <!-- Project Process - Empathize (Learnings - Row) -->
+              <div class="col-lg-4">
+                <!-- Project Process - Empathize (Learnings - Column 1) -->
+                <p><span>Problem statement to be refined.</span></p>
+                <p>
+                  To establish the product my preliminary problem statement had
+                  to undergo a root cause analysis to identify a core problem.
+                  This was important as I wanted to design a solution for an
+                  actual need of the user. The early stages of the UX process
+                  fortunately encourages the refinement of the problem statement
+                  via competitive analysis and user interviews.
+                </p>
+              </div>
+              <div class="col-lg-4">
+                <!-- Project Process - Empathize (Learnings - Column 2) -->
+                <p><span>Planners are personal.</span></p>
+                <p>
+                  The Vision app will need to include sufficient information
+                  about the planner’s past experience and skills as well as
+                  ratings or reviews to make the user feel confident booking
+                  them for their event. That said, as discovered in my
+                  interviews the act of finding an event planner can also be
+                  personality driven and visual references are very important.
+                </p>
+              </div>
+              <div class="col-lg-4">
+                <!-- Project Process - Empathize (Learnings - Column 3) -->
+                <p><span>Let the user explain the problem.</span></p>
+                <p>
+                  Preparing questions was essential for my user interviews as it
+                  provided structure to the sessions. However, I learned to
+                  leave space for participants to offer feedback even when their
+                  responses weren't directly related to a prewritten prompt.
+                  These additional observations helped me to better understand
+                  their natural behaviors and motivations.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <!-- Project Process - Define -->
+          <div>
+            <!-- Project Process Define (Image) -->
+            <picture class="process">
+              <source
+                srcset="
+                  img/2_project-page_the-vision/design-process-define@1x.png
+                "
+                media="(max-width:767px)"
+              />
+              <img
+                src="img/2_project-page_the-vision/design-process-define@2x.png"
+                alt="Design Process (Define)"
+              />
+            </picture>
+          </div>
+          <div>
+            <!-- Project Process Define (User Personas) -->
+            <p>
+              For this part of the process, design personas were created per my
+              user interview data. I developed 3 personas for The Vision:
+              Simone, Jesse, &amp; Dara. The intent of having multiple personas
+              was to design for users searching for personal, professional, or
+              non-profit events planners.
+            </p>
+            <p>
+              While additional information was included to make my personas
+              memorable and relatable, the primary focus was on identifying
+              user's motivations, needs, &amp; goals and evaluating how those
+              aligned with the preliminary problem statement.
+            </p>
+            <div>
+              <!-- Project Process Define (User Personas - Dara) -->
+              <picture>
+                <source
+                  srcset="img/2_project-page_the-vision/personas_dara@1x.png"
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/2_project-page_the-vision/personas_dara@2x.png"
+                  alt="Dara User Persona"
+                />
+              </picture>
+            </div>
+            <div>
+              <!-- Project Process Define (User Personas - Jesse) -->
+              <picture>
+                <source
+                  srcset="img/2_project-page_the-vision/personas_jesse@1x.png"
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/2_project-page_the-vision/personas_jesse@2x.png"
+                  alt="Jesse User Persona"
+                />
+              </picture>
+            </div>
+            <div>
+              <!-- Project Process Define (User Personas - Simone) -->
+              <picture>
+                <source
+                  srcset="img/2_project-page_the-vision/personas_simone@1x.png"
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/2_project-page_the-vision/personas_simone@2x.png"
+                  alt="Simone User Persona"
+                />
+              </picture>
+            </div>
+          </div>
+          <div>
+            <!-- Project Process Define (User Journey Maps) -->
+            <p>
+              With personas in hand, I started to visualize the tasks, thoughts,
+              and emotions that my users would go through in order to accomplish
+              a goal. This study was graphically represented in user journey
+              maps.
+            </p>
+            <p>
+              As seen in the Journey Map below, Dara would like to find an event
+              planner for her wedding. It is important to her that she can
+              review photos of particular planner's past events in order to
+              determine if they will be an appropriate or aesthetic fit for her
+              event.
+            </p>
+            <div>
+              <!-- Project Process Define (User Journey Maps - Dara) -->
+              <picture>
+                <source
+                  srcset="
+                    img/2_project-page_the-vision/user-journey-maps@1x.png
+                  "
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/2_project-page_the-vision/user-journey-maps@2x.png"
+                  alt="Dara Journey Map"
+                />
+              </picture>
+            </div>
+            <div>
+              <!-- Project Process Define (User Journey Maps - Benefits) -->
+              <p>
+                A benefit of creating Dara's Journey Map was that I was able to
+                recognize a few design opportunities for The Vision app to help
+                Dara more easily accomplish her goal.
+              </p>
+              <ul>
+                <li>
+                  Bookmark feature to help users remember planners while in the
+                  search flow.
+                </li>
+                <li>
+                  Album feature for a user's bookmarked planners that can be
+                  referred to later.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <!-- Project Process Define (User Flows) -->
+            <p>
+              The next part of the process required me to concentrate on
+              specific actions the personas may be doing while using The Vision
+              app. To create a user flow for Dara, I identified her objective,
+              gathered information related to her task, and outlined an
+              optimized list of tasks that I believed Dara would follow to
+              accomplish her goal.
+            </p>
+            <div>
+              <!-- Project Process Define (User Flows - Context) -->
+              <picture>
+                <source
+                  srcset="img/2_project-page_the-vision/user-flow_1@1x.png"
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/2_project-page_the-vision/user-flow_1@2x.png"
+                  alt="Dara User Flow Context"
+                />
+              </picture>
+            </div>
+            <p>
+              Preparing this context in advance helped me to visually represent
+              the sequence of events Dara may follow when searching for a
+              planner &amp; bookmarking a favorite on The Vision app.
+            </p>
+            <div>
+              <!-- Project Process Define (User Flows - User Flow) -->
+              <picture>
+                <source
+                  srcset="img/2_project-page_the-vision/user-flow_2@1x.png"
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/2_project-page_the-vision/user-flow_2@2x.png"
+                  alt="Dara User Flow"
+                />
+              </picture>
+            </div>
+          </div>
+          <div>
+            <!-- Project Process Define (Site Map) -->
+            <p>
+              Defining my user personas, journeys, and flows as well as
+              revisiting the problem statement helped me to get an idea of what
+              product needs to be designed.
+            </p>
+            <p>
+              To start mapping out the organization and content of my product I
+              created a preliminary site map. The hierarchy of The Vision app
+              started with the home screen where the user could navigate to
+              search, events, inbox, and account features.
+            </p>
+            <div>
+              <!-- Project Process Define (Site Map - Preliminary) -->
+              <picture>
+                <source
+                  srcset="img/2_project-page_the-vision/site-map@1x.png"
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/2_project-page_the-vision/site-map@2x.png"
+                  alt="Preliminary Site Map"
+                />
+              </picture>
+            </div>
+            <p>
+              Before starting to wireframe I conducted an open card sort to gain
+              insight on my potential user's expectations for the organization
+              of The Vision app. The following results are compiled from 10
+              participants sorting 20 cards via the website OptimalSort.
+            </p>
+            <div>
+              <!-- Project Process Define (Site Map - Card Sorting) -->
+              <picture>
+                <source
+                  srcset="img/2_project-page_the-vision/card-sorting@1x.png"
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/2_project-page_the-vision/card-sorting@2x.png"
+                  alt="Carding Sorting"
+                />
+              </picture>
+            </div>
+            <div>
+              <!-- Project Process Define (Site Map - Ordered List) -->
+              <p>
+                A few significant revisions to the preliminary sitemap came from
+                the card sorting exercise with users.
+              </p>
+              <ol>
+                <li>
+                  Many participants grouped "Profile", "Save Profile", &amp;
+                  "Share Profile" together while "Profile" was intended for the
+                  user's personal account and "Save Profile" &amp; "Share
+                  Profile" were meant for features on an event planner's
+                  profile. For clarity, "Save Profile" &amp; "Share Profile"
+                  were revised to "Save Planner" &amp; "Share Planner".
+                </li>
+                <li>
+                  Participants typically differentiated the planner cards from
+                  event cards. Thus, a "Planners" category, separate from the
+                  "Events" category, was added under the "Home Screen" on the
+                  revised sitemap which allowed for a more simplified process
+                  when users are searching, saving, messaging, and booking
+                  planners.
+                </li>
+                <li>
+                  With the addition of the new "Planners" category under "Home
+                  Screen" the user is no longer required to save planners to
+                  specific events when they wish to bookmark a planner. As a
+                  result, the "Add New Event" option was omitted as events will
+                  now only be created once a user has signed a contract with a
+                  planner.
+                </li>
+              </ol>
+            </div>
+            <div>
+              <!-- Project Process Define (Site Map - Revised) -->
+              <picture>
+                <source
+                  srcset="
+                    img/2_project-page_the-vision/card-sorting_refined-site-map@1x.png
+                  "
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/2_project-page_the-vision/card-sorting_refined-site-map@2x.png"
+                  alt="Revised Site Map"
+                />
+              </picture>
+            </div>
+          </div>
+          <div class="learnings row">
+            <!-- Project Process - Define (Learnings) -->
+            <h4>Learnings</h4>
+            <div>
+              <!-- Project Process - Define (Learnings - Row) -->
+              <div class="col-lg-4">
+                <!-- Project Process - Define (Learnings - Column 1) -->
+                <p><span>Condense and strengthen personas.</span></p>
+                <p>
+                  Personal, corporate, and non-profit events differ in purpose,
+                  budget, or priorities. However, the people searching for
+                  planners of these various event types aren't drastically
+                  different from one another. I came to the realization that my
+                  personas have comparable end goals and could be synthesized
+                  into one primary persona given the project scope.
+                </p>
+              </div>
+              <div class="col-lg-4">
+                <!-- Project Process - Define (Learnings - Column 2) -->
+                <p><span>Temptation of feature creep.</span></p>
+                <p>
+                  In reflection, my user journeys may be ambitious for a product
+                  that will reach MVP development. While the user journeys/task
+                  analysis helped to identify potential features and grasp
+                  persona flows, I first focused on the features users needed to
+                  accomplish their goal before entertaining what else I could
+                  provide in order to maximize my design effort.
+                </p>
+              </div>
+              <div class="col-lg-4">
+                <!-- Project Process - Define (Learnings - Column 3) -->
+                <p><span>Card sorting helps reduce cognitive load.</span></p>
+                <p>
+                  Dedicating time to a participatory design exercise (i.e. card
+                  sorting) before prototyping not only saved me from redesigns
+                  later but also reinforced I was building an app that was
+                  aligned with the mental models of my users. A product that has
+                  intuitive navigation and doesn't require people to relearn
+                  patterns will make for a more enjoyable experience.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <!-- Project Process - Prototype -->
+          <div>
+            <!-- Project Process Prototype (Image) -->
+            <picture class="process">
+              <source
+                srcset="
+                  img/2_project-page_the-vision/design-process-prototype@1x.png
+                "
+                media="(max-width:767px)"
+              />
+              <img
+                src="img/2_project-page_the-vision/design-process-prototype@2x.png"
+                alt="Design Process (Prototype)"
+              />
+            </picture>
+          </div>
+          <div>
+            <!-- Project Process Prototype (Low-Fidelity Prototypes) -->
+            <p>
+              With user flows and a revised site map as a reference I sketched
+              some low-fidelity wireframes and prototyped the various screens
+              users may experience when interacting with The Vision app.
+            </p>
+            <div>
+              <!-- Project Process Prototype (Low-Fidelity Image) -->
+              <picture>
+                <source
+                  srcset="
+                    img/2_project-page_the-vision/low-fidelity-prototypes_1@1x.png
+                  "
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/2_project-page_the-vision/low-fidelity-prototypes_1@2x.png"
+                  alt="Design Process (Low-Fidelity Sketch)"
+                />
+              </picture>
+            </div>
+            <p>
+              Below are early studies of the user experience when bookmarking a
+              planner on either a mobile device or desktop. The sketches were
+              done using an iPad &amp; Apple Pencil which allowed for rapid
+              iterations.
+            </p>
+            <div>
+              <!-- Project Process Prototype (Low-Fidelity Mobile) -->
+              <picture>
+                <source
+                  srcset="
+                    img/2_project-page_the-vision/low-fidelity-prototypes_mobile@1x.png
+                  "
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/2_project-page_the-vision/low-fidelity-prototypes_mobile@2x.png"
+                  alt="Design Process (Low-Fidelity Mobile)"
+                />
+              </picture>
+            </div>
+            <div>
+              <!-- Project Process Prototype (Low-Fidelity Desktop 1) -->
+              <picture>
+                <source
+                  srcset="
+                    img/2_project-page_the-vision/low-fidelity-prototypes_desktop-1@1x.png
+                  "
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/2_project-page_the-vision/low-fidelity-prototypes_desktop-1@2x.png"
+                  alt="Design Process (Low-Fidelity Desktop 1)"
+                />
+              </picture>
+            </div>
+            <div>
+              <!-- Project Process Prototype (Low-Fidelity Desktop 1) -->
+              <picture>
+                <source
+                  srcset="
+                    img/2_project-page_the-vision/low-fidelity-prototypes_desktop-2@1x.png
+                  "
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/2_project-page_the-vision/low-fidelity-prototypes_desktop-2@2x.png"
+                  alt="Design Process (Low-Fidelity Desktop 2)"
+                />
+              </picture>
+            </div>
+          </div>
+          <div>
+            <!-- Project Process Prototype (Mid-Fidelity Prototypes) -->
+            <p>
+              Once I flushed out the basic functionality of The Vision app via
+              hand-sketched low-fidelity prototypes I progressed to digital
+              mid-fidelity wireframes using Figma. Below are wireframes for the
+              previously shown user flow of bookmarking a planner on a mobile
+              device.
+            </p>
+            <div>
+              <!-- Project Process Prototype (Mid-Fidelity Image) -->
+              <picture>
+                <source
+                  srcset="
+                    img/2_project-page_the-vision/mid-fidelity-prototypes@1x.png
+                  "
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/2_project-page_the-vision/mid-fidelity-prototypes@2x.png"
+                  alt="Design Process (Mid-Fidelity Mobile)"
+                />
+              </picture>
+            </div>
+            <p>
+              My mid-to-high fidelity wireframes remained grayscale with
+              placeholder copy which allowed me to play with the form and
+              function of the screens and not get too far ahead on the design.
+              By disregarding specifics associated with UI design &amp; language
+              selections, I was able to translate my hand sketches into a
+              digital format for further manipulation.
+            </p>
+          </div>
+          <div>
+            <!-- Project Process Prototype (High-Fidelity Prototypes) -->
+            <p>
+              In order to bring life to my wireframes and prepare a
+              high-fidelity prototype to test with users, I incorporated
+              interactions to mimic the intended functionality of the app.
+            </p>
+            <p>
+              Wireframes from my high-fidelity prototype can be seen below. At
+              this point in the project the screens were all designed for a
+              mobile device as my objective was to deliver a MVP with a
+              mobile-first approach.
+            </p>
+            <div>
+              <!-- Project Process Prototype (High-Fidelity Gif) -->
+              <picture>
+                <source
+                  srcset="
+                    img/2_project-page_the-vision/high-fidelity-prototypes_gif@1x.gif
+                  "
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/2_project-page_the-vision/high-fidelity-prototypes_gif@2x.gif"
+                  alt="Design Process (High-Fidelity Mobile)"
+                />
+              </picture>
+            </div>
+          </div>
+          <div class="learnings row">
+            <!-- Project Process - Prototype (Learnings) -->
+            <h4>Learnings</h4>
+            <div>
+              <!-- Project Process - Prototype (Learnings - Row) -->
+              <div class="col-lg-4">
+                <!-- Project Process - Prototype (Learnings - Column 1) -->
+                <p>
+                  <span>Usability heuristics as competitive analysis.</span>
+                </p>
+                <p>
+                  Performing a heuristic evaluation of my product will be
+                  valuable in the future. However, as my design is in the early
+                  stages I used the excuse to heuristically evaluate a
+                  competitive app. The insight gained on how they attempted to
+                  solve the problem in their design and usability pros/cons
+                  discovered was a constructive reference once I started
+                  prototyping.
+                </p>
+              </div>
+              <div class="col-lg-4">
+                <!-- Project Process - Prototype (Learnings - Column 2) -->
+                <p><span>Pencil before pen before mouse.</span></p>
+                <p>
+                  Prototyping with pencil first helped me to quickly get ideas
+                  from my brain to a physical, shareable format. It motivated me
+                  to experiment with different solutions before making any final
+                  decisions. Additionally, creating a roadmap of the design
+                  direction prior to jumping into digital tools allowed for a
+                  natural development of high-to-low level details.
+                </p>
+              </div>
+              <div class="col-lg-4">
+                <!-- Project Process - Prototype (Learnings - Column 3) -->
+                <p><span>Prototypes serve different purposes.</span></p>
+                <p>
+                  The primary purpose of the prototypes I created for this
+                  product was to have something to put in front of users to test
+                  usability. That said, I learned the prototyping tool can serve
+                  various purposes in the UX practice such as expressing a
+                  simple concept for a feature to the product team or
+                  representing an entire product experience for stakeholders.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <!-- Project Process - Test -->
+          <div>
+            <!-- Project Process Test (Image) -->
+            <picture class="process">
+              <source
+                srcset="
+                  img/2_project-page_the-vision/design-process-test@1x.png
+                "
+                media="(max-width:767px)"
+              />
+              <img
+                src="img/2_project-page_the-vision/design-process-test@2x.png"
+                alt="Design Process (Test)"
+              />
+            </picture>
+          </div>
+          <div>
+            <!-- Project Process Test (Test Plan & Script) -->
+            <p>
+              In preparation for the usability tests I created a test plan &amp;
+              script. This document contained information such as test goals,
+              features/tasks to be performed, methodology, participants, and
+              metrics for evaluation.
+            </p>
+            <div class="test-plan">
+              <!-- Project Process Test (Test Plan & Script - Plan) -->
+              <ul>
+                <li class="test-plan-title">BACKGROUND:</li>
+                <li>
+                  <span>THE VISION APP PROBLEM STATEMENT</span> | Individuals
+                  tasked with organizing events need a way to find &amp; hire
+                  planners to help them execute their events because planning is
+                  time-consuming and often requires specific skills and
+                  connections.
+                </li>
+                <li class="test-plan-title">GOALS:</li>
+                <li>
+                  Evaluate if the core features of The Vision app are usable and
+                  intuitive by observing participants to measure their
+                  satisfaction or frustration when executing basic tasks.
+                </li>
+                <li class="test-plan-title">OBJECTIVES:</li>
+                <li>
+                  <span>FEATURES TO TEST</span> | Sign-Up &amp; Log-In, Search
+                  Event Planners, Save Event Planner, Message Event Planner,
+                  Book Event Planner, &amp; Log-Out
+                </li>
+                <li class="test-plan-title">METHODOLOGY:</li>
+                <li>
+                  Moderated in-person &amp; remote usability tests. Participants
+                  to execute a series of tasks on personal device using the
+                  prototype. Tasks will be followed-up with questions based on
+                  facilitator's observations to gain qualitative insight about
+                  their experience.
+                </li>
+                <li class="test-plan-title">PARTICIPANTS:</li>
+                <li>The study will test six participants.</li>
+                <li>
+                  <span>TARGET AUDIENCE</span> | Individuals familiar with using
+                  mobile devices to find professionals and have experience
+                  planning events or working with event planners on a range of
+                  functions (i.e. personal, professional, non-profit).
+                </li>
+                <li class="test-plan-title">METRICS:</li>
+                <li>
+                  <span>RATING SYSTEM</span> | Errors will be measured using the
+                  Jakob Nielsen’s Scale.
+                </li>
+                <li class="metrics">
+                  <ul>
+                    <li>0 = No usability problem</li>
+                    <li>1 = Cosmetic problem only</li>
+                    <li>2 = Minor usability problem</li>
+                    <li>3 = Major usability problem</li>
+                    <li>4 = Usability catastrophe</li>
+                  </ul>
+                </li>
+                <li class="test-plan-title">TASKS:</li>
+                <li>
+                  <span>SEARCH / SHARE</span> | Find an event planner and send
+                  them to a friend.
+                </li>
+                <li>
+                  <span>MESSAGE</span> | Ask an event planner if they have
+                  experience at your venue.
+                </li>
+                <li>
+                  <span>BOOK</span> | Request a proposal from an event planner
+                  &amp; book them for your event.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <!-- Project Process Test (Affinity Map) -->
+            <p>
+              After completing the usability tests I had a substantial amount of
+              data to analyze particularly as a majority of the participants
+              opted to provided additional feedback after each task.
+            </p>
+            <p>
+              The first tool I employed to identify themes and connections in
+              the information was an affinity mapping exercise in which I sorted
+              the insight I gathered for specific tasks into the following
+              categories: observations, positives quotes, negative quotes,
+              errors, &amp; rating.
+            </p>
+            <div>
+              <!-- Project Process Test (Affinity Map - Image) -->
+              <picture>
+                <source
+                  srcset="
+                    img/2_project-page_the-vision/affinity-map_overall-map@1x.png
+                  "
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/2_project-page_the-vision/affinity-map_overall-map@2x.png"
+                  alt="Usability Test Affinity Mapping"
+                />
+              </picture>
+            </div>
+          </div>
+          <div class="process-link-1">
+            <!-- Project Process Test (Rainbow Spreadsheet) -->
+            <p>
+              While it was beneficial to recognize similarities and categorize
+              themes in my usability test data by affinity mapping, I next
+              applied structure and meaning to the insight by creating a rainbow
+              spreadsheet. This allowed me to not only prioritize a list of
+              errors that could be addressed but also start brainstorming
+              possible solutions &amp; next steps.
+            </p>
+            <a href="files/the-vision_rainbow-spreadsheet.pdf" target="_blank"
+              >View Full Rainbow Spreadsheet</a
+            >
+            <div>
+              <!-- Project Process Test (Rainbow Spreadsheet - Image) -->
+              <picture>
+                <source
+                  srcset="
+                    img/2_project-page_the-vision/rainbow-spreadsheet_errors@1x.png
+                  "
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/2_project-page_the-vision/rainbow-spreadsheet_errors@2x.png"
+                  alt="Usability Test Rainbow Spreadsheet"
+                />
+              </picture>
+            </div>
+          </div>
+          <div>
+            <!-- Project Process Test (Test Report & Recommendations) -->
+            <p>
+              To communicate my findings from the usability tests I prepared a
+              test report listing discovered errors with proposed changes.
+            </p>
+            <div>
+              <!-- Project Process Test (Test Report & Recommendations - Issues) -->
+              <div>
+                <!-- Project Process Test (Test Report & Recommendations - Issue 1) -->
+                <picture>
+                  <source
+                    srcset="
+                      img/2_project-page_the-vision/test-report-and-recommendations_error-1@1x.png
+                    "
+                    media="(max-width:767px)"
+                  />
+                  <img
+                    src="img/2_project-page_the-vision/test-report-and-recommendations_error-1@2x.png"
+                    alt="Issue 1"
+                  />
+                </picture>
+              </div>
+              <div>
+                <!-- Project Process Test (Test Report & Recommendations - Issue 2) -->
+                <picture>
+                  <source
+                    srcset="
+                      img/2_project-page_the-vision/test-report-and-recommendations_error-2@1x.png
+                    "
+                    media="(max-width:767px)"
+                  />
+                  <img
+                    src="img/2_project-page_the-vision/test-report-and-recommendations_error-2@2x.png"
+                    alt="Issue 2"
+                  />
+                </picture>
+              </div>
+              <div>
+                <!-- Project Process Test (Test Report & Recommendations - Issue 3) -->
+                <picture>
+                  <source
+                    srcset="
+                      img/2_project-page_the-vision/test-report-and-recommendations_error-3@1x.png
+                    "
+                    media="(max-width:767px)"
+                  />
+                  <img
+                    src="img/2_project-page_the-vision/test-report-and-recommendations_error-3@2x.png"
+                    alt="Issue 3"
+                  />
+                </picture>
+                <p>
+                  See below for example of revised search flow per the Usability
+                  Tests.
+                </p>
+                <picture>
+                  <source
+                    srcset="
+                      img/2_project-page_the-vision/test-report-and-recommendations_error-3_gif@1x.gif
+                    "
+                    media="(max-width:767px)"
+                  />
+                  <img
+                    src="img/2_project-page_the-vision/test-report-and-recommendations_error-3_gif@2x.gif"
+                    alt="Issue 3 Gif"
+                  />
+                </picture>
+              </div>
+              <div>
+                <!-- Project Process Test (Test Report & Recommendations - Issue 4) -->
+                <picture>
+                  <source
+                    srcset="
+                      img/2_project-page_the-vision/test-report-and-recommendations_error-4@1x.png
+                    "
+                    media="(max-width:767px)"
+                  />
+                  <img
+                    src="img/2_project-page_the-vision/test-report-and-recommendations_error-4@2x.png"
+                    alt="Issue 4"
+                  />
+                </picture>
+                <p>
+                  See below for example of revised proposal request flow per the
+                  Usability Tests.
+                </p>
+                <picture>
+                  <source
+                    srcset="
+                      img/2_project-page_the-vision/test-report-and-recommendations_error-4_gif@1x.gif
+                    "
+                    media="(max-width:767px)"
+                  />
+                  <img
+                    src="img/2_project-page_the-vision/test-report-and-recommendations_error-4_gif@2x.gif"
+                    alt="Issue 3 Gif"
+                  />
+                </picture>
+              </div>
+              <div>
+                <!-- Project Process Test (Test Report & Recommendations - Issue 5) -->
+                <picture>
+                  <source
+                    srcset="
+                      img/2_project-page_the-vision/test-report-and-recommendations_error-5@1x.png
+                    "
+                    media="(max-width:767px)"
+                  />
+                  <img
+                    src="img/2_project-page_the-vision/test-report-and-recommendations_error-5@2x.png"
+                    alt="Issue 5"
+                  />
+                </picture>
+                <p>
+                  See below for example of revised saving planner flow per the
+                  Usability Tests.
+                </p>
+                <picture>
+                  <source
+                    srcset="
+                      img/2_project-page_the-vision/test-report-and-recommendations_error-5_gif@1x.gif
+                    "
+                    media="(max-width:767px)"
+                  />
+                  <img
+                    src="img/2_project-page_the-vision/test-report-and-recommendations_error-5_gif@2x.gif"
+                    alt="Issue 3 Gif"
+                  />
+                </picture>
+              </div>
+            </div>
+          </div>
+          <div>
+            <!-- Project Process Test (Preference Tests) -->
+            <p>
+              In addition to the usability tests, I also conducted a few
+              preference tests to gather insight from users on the introductory
+              splash, onboarding, and sign-up/log-in screens of The Vision App.
+              The tests were administered and feedback collected via Usability
+              Hub.
+            </p>
+            <div>
+              <!-- Project Process Test (Preference Tests - Options) -->
+              <picture>
+                <source
+                  srcset="
+                    img/2_project-page_the-vision/preference-test_options@1x.png
+                  "
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/2_project-page_the-vision/preference-test_options@2x.png"
+                  alt="Preference Test Options"
+                />
+              </picture>
+            </div>
+            <div>
+              <!-- Project Process Test (Preference Tests - Results) -->
+              <picture>
+                <source
+                  srcset="
+                    img/2_project-page_the-vision/preference-test_results@1x.png
+                  "
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/2_project-page_the-vision/preference-test_results@2x.png"
+                  alt="Preference Test Results"
+                />
+              </picture>
+            </div>
+            <p>
+              See below for example of revised onboarding flow per the
+              Preference Tests.
+            </p>
+            <picture>
+              <source
+                srcset="
+                  img/2_project-page_the-vision/preference-test_onboarding-flow_gif@1x.gif
+                "
+                media="(max-width:767px)"
+              />
+              <img
+                src="img/2_project-page_the-vision/preference-test_onboarding-flow_gif@2x.gif"
+                alt="Onboarding Flow Gif"
+              />
+            </picture>
+          </div>
+          <div class="learnings row">
+            <!-- Project Process - Test (Learnings) -->
+            <h4>Learnings</h4>
+            <div>
+              <!-- Project Process - Test (Learnings - Row) -->
+              <div class="col-lg-4">
+                <!-- Project Process - Test (Learnings - Column 1) -->
+                <p><span>Simple scenarios for preliminary prototypes.</span></p>
+                <p>
+                  In initial tests, I observed that participants put a lot of
+                  thought into the specifics of task scenarios and as a result
+                  apprehensively tried to perform actions beyond the prototype's
+                  level of development. Thus, I made adjustments for later tests
+                  to ensure questions were concise and straightforward as my
+                  primary goal was to evaluate the core navigation.
+                </p>
+              </div>
+              <div class="col-lg-4">
+                <!-- Project Process - Test (Learnings - Column 2) -->
+                <p><span>General themes over individual comments.</span></p>
+                <p>
+                  Affinity mapping after usability tests was useful as it
+                  focused my attention on overall test trends instead of
+                  favoring a singular user's feedback. That said, I recognize
+                  how the participatory exercise of affinity mapping and
+                  analyzing insight as part of a team instead of solo would be
+                  even more rewarding and enhance the experience of design.
+                </p>
+              </div>
+              <div class="col-lg-4">
+                <!-- Project Process - Test (Learnings - Column 3) -->
+                <p><span>Prioritize and phase updates.</span></p>
+                <p>
+                  It was slightly intimidating to conclude the usability tests
+                  and discover a long list of errors to address. My first
+                  instinct is to fix it all now. However, that is time consuming
+                  and can be unfavorable as some updates require additional
+                  testing and impact proposed solutions for other errors.
+                  Sequentially phasing updates is a necessary and productive
+                  part of design.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <!-- Project Process - Refine -->
+          <div>
+            <!-- Project Process Refine (Image) -->
+            <picture class="process">
+              <source
+                srcset="
+                  img/2_project-page_the-vision/design-process-refine@1x.png
+                "
+                media="(max-width:767px)"
+              />
+              <img
+                src="img/2_project-page_the-vision/design-process-refine@2x.png"
+                alt="Design Process (Refine)"
+              />
+            </picture>
+          </div>
+          <div class="process-link-2">
+            <!-- Project Process Refine (Style Guide) -->
+            <p>
+              To improve both the visual design and user experience I studied
+              the Gestalt Properties, Gestalt Laws of Grouping, &amp; Principles
+              of Design and aimed to apply them to the screens of the Vision
+              app.
+            </p>
+            <p>
+              After narrowing in on a visual voice for The Vision app as well as
+              developing a majority of screens to have a consistent visual
+              language I compiled the information into a Style Guide.
+            </p>
+            <p>
+              The Style Guide includes information on the typography, colors, UI
+              elements, imagery &amp; illustrations, grids &amp; layouts, as
+              well as copy of The Vision app. When developing new screens or
+              refining existing ones in the future the Style Guide can be used
+              as a reference.
+            </p>
+            <a href="files/the-vision_style-guide.pdf" target="_blank"
+              >View Full Style Guide</a
+            >
+          </div>
+          <div>
+            <!-- Project Process Refine (Design Collaboration) -->
+            <p>
+              With visually updated screens it was time to share the latest
+              prototype with fellow designers for feedback. The constructive
+              comments received highlighted areas where I could strengthen the
+              visual design of The Vision app for clarity and ease of use.
+            </p>
+            <div class="design-collaboration">
+              <!-- Project Process Refine (Design Collaboration - Home Screen) -->
+              <p>Updates to Home Screen Below</p>
+              <picture>
+                <source
+                  srcset="
+                    img/2_project-page_the-vision/design-collaboration_1@1x.png
+                  "
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/2_project-page_the-vision/design-collaboration_1@2x.png"
+                  alt="Home Screen Updates"
+                />
+              </picture>
+            </div>
+            <div class="design-collaboration">
+              <!-- Project Process Refine (Design Collaboration - Search Prompt) -->
+              <p>Updates to Search Prompt Screens Below</p>
+              <picture>
+                <source
+                  srcset="
+                    img/2_project-page_the-vision/design-collaboration_2@1x.png
+                  "
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/2_project-page_the-vision/design-collaboration_2@2x.png"
+                  alt="Search Prompt Updates"
+                />
+              </picture>
+            </div>
+            <div>
+              <!-- Project Process Refine (Design Collaboration - Search Prompt Gif) -->
+              <p>
+                See below for example of revised search prompts per the design
+                collaboration.
+              </p>
+              <picture>
+                <source
+                  srcset="
+                    img/2_project-page_the-vision/design-collaboration_gif@1x.gif
+                  "
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/2_project-page_the-vision/design-collaboration_gif@2x.gif"
+                  alt="Search Prompt Gif"
+                />
+              </picture>
+            </div>
+          </div>
+          <div>
+            <!-- Project Process Refine (Accessibility & Polished UI) -->
+            <p>
+              The insight I received from designers ranged from minor visual
+              recommendations to more significant pain points. While addressing
+              these items I also took the opportunity to review each screen to
+              identify improvements that could be made in terms of
+              accessibility.
+            </p>
+            <div class="list">
+              <!-- Project Process Refine (Accessibility & Polished UI - Home Screen) -->
+              <p>HOME SCREEN:</p>
+              <ul>
+                <li>
+                  <span>SEARCH BAR FONT SIZE</span> | Search bar &amp; icon
+                  increased for better readability.
+                </li>
+                <li>
+                  <span>SEARCH BAR LABELS/PLACEHOLDER</span> | "Planner Search"
+                  label added to input form to help user remember what to enter
+                  after selecting field in flow. "Example 'Party Planner'" added
+                  as placeholder text to help guide user on what is expected to
+                  enter.
+                </li>
+                <li>
+                  <span>HEADERS FONT CASE</span> | Headers (i.e. "Popular
+                  Services") changed from uppercase to title case to increase
+                  readability.
+                </li>
+                <li>
+                  <span>CARDS FONT SIZE/PADDING</span> | Planner cards (i.e.
+                  "Wedding Coordinators") &amp; "Recently Searched" cards
+                  increased for better readability. Padding around text
+                  increased to give visual breathing room.
+                </li>
+                <li>
+                  <span>CARDS BACKGROUND COLOR</span> | "Recently Searched"
+                  cards lightened to increased contrast for better readability.
+                  "Featured Events" cards lightened as high contrast was drawing
+                  too much attention to that section and may distract user.
+                </li>
+                <li>
+                  <span>BADGE</span> | Color of "Inbox" icon notification
+                  changed to achieve contrast ratio of 3:1.
+                </li>
+              </ul>
+            </div>
+            <div>
+              <!-- Project Process Refine (Accessibility & Polished UI - Home Screen Gif) -->
+              <picture>
+                <source
+                  srcset="
+                    img/2_project-page_the-vision/accessibility_polished-ui@1x.gif
+                  "
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/2_project-page_the-vision/accessibility_polished-ui@2x.gif"
+                  alt="Home Screen Gif"
+                />
+              </picture>
+            </div>
+            <div class="process-link-2">
+              <!-- Project Process Refine (Accessibility & Polished UI - Video Walkthrough Link) -->
+              <p>
+                The next step after addressing errors discovered in the
+                usability tests, refining the visual design via principles &amp;
+                collaboration, and investing in the practice of designing
+                accessible interfaces for diverse users is to modify the
+                prototype for handoff or another round of testing.
+              </p>
+              <a
+                href="https://www.youtube.com/watch?v=0fjBTE7PwtY"
+                target="_blank"
+                >View video walkthrough of The Vision App prototype.</a
+              >
+            </div>
+          </div>
+          <div class="learnings row">
+            <!-- Project Process - Refine (Learnings) -->
+            <h4>Learnings</h4>
+            <div>
+              <!-- Project Process - Refine (Learnings - Row) -->
+              <div class="col-lg-4">
+                <!-- Project Process - Refine (Learnings - Column 1) -->
+                <p><span>Design standards as inspiration.</span></p>
+                <p>
+                  Tools such as Google's Material Design were a handy reference
+                  when beginning the visual design. As I did not have an
+                  existing Style Guide it was beneficial to refer to it for best
+                  practices in the industry. However, I understand going forward
+                  they are purely guidelines and I have flexibility to evolve
+                  the product design as needed to best serve the users.
+                </p>
+              </div>
+              <div class="col-lg-4">
+                <!-- Project Process - Refine (Learnings - Column 2) -->
+                <p><span>Start with clean style guide.</span></p>
+                <p>
+                  I learned that I can design more efficiently if I strive for
+                  visual consistency and simplicity from the start of a project.
+                  In fact, the Style Guide I created could be streamlined and
+                  consolidated further. When working on MVPs in the future I
+                  will aim to make deliberate design decisions at the beginning
+                  of the process to avoid over complication later.
+                </p>
+              </div>
+              <div class="col-lg-4">
+                <!-- Project Process - Refine (Learnings - Column 3) -->
+                <p><span>Make accessibility a priority.</span></p>
+                <p>
+                  Designing products for all users with a range of
+                  accessibilities should be a priority for designers. The
+                  modifications I made to address accessibility concerns (i.e.
+                  enlarging text size, modifying colors, and including labels)
+                  not only resulted in a product that more people can navigate
+                  but also added to the visual balance of the interface in
+                  general.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#top" id="goTop">Back to Top</a>
+    </main>
+    <footer id="contact">
+      <div class="container">
+        <h2>Get in touch!</h2>
+        <p>
+          Feel free to reach out if you want to work on a problem together.
+          Call: <a href="tel:503-853-5481">503-853-5481</a> Or send me a message
+          using the link below.
+        </p>
+        <div>
+          <a
+            href="mailto:paige.mariucci@gmail.com?subject=Let's%20work%20together!"
+            class="button contact"
+            target="_blank"
+            >Email me</a
+          >
+        </div>
+        <div class="social-icon">
+          <a
+            href="https://www.linkedin.com/in/paige-mariucci-16a397217/"
+            target="_blank"
+          >
+            <svg
+              height="100%"
+              style="
+                fill-rule: evenodd;
+                clip-rule: evenodd;
+                stroke-linejoin: round;
+                stroke-miterlimit: 2;
+              "
+              version="1.1"
+              viewBox="0 0 512 512"
+              width="100%"
+              xml:space="preserve"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <g id="g5891">
+                <path
+                  d="M512,64c0,-35.323 -28.677,-64 -64,-64l-384,0c-35.323,0 -64,28.677 -64,64l0,384c0,35.323 28.677,64 64,64l384,0c35.323,0 64,-28.677 64,-64l0,-384Z"
+                  id="background"
+                  style="fill: #2867b2"
+                />
+                <g id="shapes">
+                  <rect
+                    height="257.962"
+                    id="rect11"
+                    style="fill: #fff"
+                    width="85.76"
+                    x="61.053"
+                    y="178.667"
+                  />
+                  <path
+                    d="M104.512,54.28c-29.341,0 -48.512,19.29 -48.512,44.573c0,24.752 18.588,44.574 47.377,44.574l0.554,0c29.903,0 48.516,-19.822 48.516,-44.574c-0.555,-25.283 -18.611,-44.573 -47.935,-44.573Z"
+                    id="path13-0"
+                    style="fill: #fff; fill-rule: nonzero"
+                  />
+                  <path
+                    d="M357.278,172.601c-45.49,0 -65.866,25.017 -77.276,42.589l0,-36.523l-85.738,0c1.137,24.197 0,257.961 0,257.961l85.737,0l0,-144.064c0,-7.711 0.554,-15.42 2.827,-20.931c6.188,-15.4 20.305,-31.352 43.993,-31.352c31.012,0 43.436,23.664 43.436,58.327l0,138.02l85.741,0l0,-147.93c0,-79.237 -42.305,-116.097 -98.72,-116.097Z"
+                    id="path15"
+                    style="fill: #fff; fill-rule: nonzero"
+                  />
+                </g>
+              </g>
+            </svg>
+          </a>
+        </div>
+        <p>Copyright Paige Mariucci 2023</p>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/scripts.js"></script>
+  </body>
 </html>
