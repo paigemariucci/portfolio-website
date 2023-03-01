@@ -245,12 +245,18 @@ nav > ul > li > a:active {
 }
 
 #work h2,
-#about h2,
+.my-story h2,
 #project-background h2,
 #project-process h2 {
     text-align: center;
     padding: 8px 0;
     margin: 32px 0 16px 0;
+}
+
+.skills-tools h2 {
+    text-align: center;
+    padding: 8px 0;
+    margin: 32px 0 -24px 0;
 }
 
 #project-background h3 {
@@ -276,9 +282,12 @@ nav > ul > li > a:active {
     text-align: center;
 }
 
-.skills h4,
 .background h4 {
     margin: 24px 0 0 0;
+}
+
+.skills h4 {
+    margin: 16px 0 8px 0;
 }
 
 .learnings h4 {
@@ -308,7 +317,12 @@ nav > ul > li > a:active {
     margin: 0;
 }
 
-.test-plan p,
+.test-plan-title {
+    margin: 16px 0 0 0;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
 .list p {
     margin: 16px 0 0 0;
     text-decoration: underline;
@@ -378,7 +392,7 @@ nav > ul > li > a:active {
   
 #goTop {
     transition: all 0.5s ease 0s;
-    opacity: 0.5;
+    opacity: 0.6;
     cursor: pointer;
 }
   
@@ -405,6 +419,11 @@ Medium devices (640px and larger)
     }
     .col-md-6 {
         width: 50%;
+        margin-top: -20px;
+    }
+    .col-md-6-project {
+        width: 50%;
+        margin: 0 0 32px;
     }
     .col-md-12 {
         width: 100%;
@@ -425,7 +444,14 @@ Medium devices (640px and larger)
         margin-top: 16px;
     }
     #about img {
-        max-width: 600px;
+        max-width: 450px;
+        position: relative;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #project-title img {
+        max-width: 750px;
         position: relative;
         display: block;
         margin-left: auto;
@@ -466,12 +492,19 @@ Medium devices (640px and larger)
         left: 0px;
         bottom: 0px;
         content: '';
-        background: #FFF;
+        background: #143a52;
         opacity: 0.25;
+        background-blend-mode: multiply;
         transition: all 0.3s;
+        z-index: -1;
     }
     div.pullUp a:hover:before {
         height: 100%;
+    }
+    .skills-tools h2 {
+        text-align: center;
+        padding: 8px 0;
+        margin: 32px 0 -12px 0;
     }
 }
 
@@ -494,6 +527,13 @@ Large devices (1024px or larger)
     }
     .col-lg-12 {
         width: 100%;
+        margin-top: -18px;
+    }
+    .col-lg-12-skills {
+        width: 100%;
+        margin-top: -18px;
+        float: left;
+        padding: 0 20px 40px;
     }
     .container {
         max-width: 1200px;
@@ -512,6 +552,11 @@ Large devices (1024px or larger)
     }
     .process img {
         padding: 24px 48px;
+    }
+    .skills-tools h2 {
+        text-align: center;
+        padding: 8px 0;
+        margin: 32px 0 16px 0;
     }
 }
 
